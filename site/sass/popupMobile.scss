@@ -1,0 +1,39 @@
+.popupMobile{
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .popupMobile {
+    display: block;
+    position: absolute;
+    background:rgba(255,255,255, 0.85);
+    width: 75%;
+    padding-bottom: 30px;
+    color: white;
+    padding: 20px;
+    top: 30%;
+    left: 7%;
+    text-align: center;
+
+    h1 {
+      font-size: 2.2rem;
+      margin-top: 10px;
+      color: rgb(140, 0, 26);
+    }
+
+    #biggerMobile {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+      #tekstMobile{
+
+        color: rgb(140, 0, 26);
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+      }
+   }
+}

@@ -1,8 +1,49 @@
 .popup {
     position: absolute;
-    background-color: #800020;
-    width: 400px;
-    height: 200px;
+    background-color: rgba(140, 0, 26, 0.8);
+    width: 35%;
+    padding-bottom: 30px;
     color: white;
-    font-size: 2em;
+    padding: 20px;
+    top: 25%;
+    left: 7%;
+    text-align: center;
+
+      h1 {
+        font-size: 2.2rem;
+        margin-top: 10px;
+      }
+
+      #bigger {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      #tekstOne {
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      #tekstTwo {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+        margin-bottom: 10px;
+      }
+
+      #tekstThree {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        letter-spacing: 0.15rem;
+        margin-bottom: 10px;
+      }
+}
+
+
+@media (max-width: 760px) {
+  .popup {
+    display: none;
+ }
 }
