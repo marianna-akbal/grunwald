@@ -81,7 +81,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, options);
+var update = __webpack_require__(7)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -113,7 +113,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, ".grunwald {\n  background: url(" + __webpack_require__(4) + ") no-repeat center center fixed;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100vw;\n  height: 100vh;\n  cursor: url(" + __webpack_require__(5) + "), auto;\n  position: relative;\n  background-color: #800020;\n  background-position: fixed; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 35%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n", ""]);
+exports.push([module.i, ".grunwald {\n  background: url(" + __webpack_require__(4) + ") no-repeat center center fixed;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100vw;\n  height: 100vh;\n  cursor: url(" + __webpack_require__(5) + "), auto;\n  position: relative;\n  background-color: #800020;\n  background-position: fixed; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 35%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n#next {\n  background: url(" + __webpack_require__(6) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: right bottom; }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n", ""]);
 
 // exports
 
@@ -216,6 +216,12 @@ module.exports = __webpack_require__.p + "images/cursor.png";
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "images/strzalka.png";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -250,7 +256,7 @@ var stylesInDom = {},
 	singletonElement = null,
 	singletonCounter = 0,
 	styleElementsInsertedAtTop = [],
-	fixUrls = __webpack_require__(7);
+	fixUrls = __webpack_require__(8);
 
 module.exports = function(list, options) {
 	if(typeof DEBUG !== "undefined" && DEBUG) {
@@ -526,7 +532,7 @@ function updateLink(linkElement, options, obj) {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 
