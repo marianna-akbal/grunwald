@@ -1,0 +1,21 @@
+{
+  "name": "grunwald",
+  "version": "1.0.0",
+  "description": "Projekt kończący kurs \"Zostań Programistą Front End\" w Coders Lab.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianna-akbal/grunwald.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianna-akbal/grunwald/issues"
+  },
+  "homepage": "https://github.com/marianna-akbal/grunwald#readme"
+}

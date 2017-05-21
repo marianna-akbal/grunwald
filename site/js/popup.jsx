@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
 export default class Popup extends React.Component {
   constructor(props) {
     super(props);
@@ -22,6 +23,6 @@ export default class Popup extends React.Component {
           <p id='tekstTwo'><br /><span id="bigger">365 lat póżniej</span> najwybitniejszy polski malarz rozpoczął prace nad monumentalnym dziełem ukazujacym zacietą walkę w momencie gdy szala zwycięstwa zaczęła przechylać sić na stronę polsko-litewską.</p>
         <p id='tekstThree'><br /><span id="bigger">Tu i Teraz</span> poznaj i usłysz tę wielką chwilę naszej historii.</p>
         <div id='next' onClick={e=>this.closePopup()}></div>
-    </div>
+        </div>
   }
 }

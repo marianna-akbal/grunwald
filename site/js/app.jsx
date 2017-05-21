@@ -7,7 +7,9 @@ import ReactDOM from 'react-dom';
 
 import Popup from './popup.jsx';
 import PopupMobile from './popupmobile.jsx';
-import Grunwald from './grunwald.jsx'
+import Grunwald from './grunwald.jsx';
+import WhoButton from './whoButton.jsx'
+
 
 class App extends React.Component {
   constructor(props) {
@@ -15,10 +17,10 @@ class App extends React.Component {
   }
   render(){
     return <div>
+      <WhoButton />
       <Grunwald />
       <Popup />
       <PopupMobile />
-
     </div>
   }
 }
