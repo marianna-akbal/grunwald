@@ -9,6 +9,10 @@
     left: 7%;
     text-align: center;
 
+    &.closed {
+      display: none;
+    }
+
       h1 {
         font-size: 2.2rem;
         margin-top: 10px;

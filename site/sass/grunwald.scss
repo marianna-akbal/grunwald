@@ -1,21 +1,34 @@
-.grunwald{
-  background: url(../images/bitwa.jpg) no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  width:100vw;
-  height:100vh;
-  cursor: url(../images/cursor.png), auto;
-  position: relative;
-  background-color: #800020;
-  background-position: fixed;
-}
+.grunwald {
+    width: 100vw;
+    height: 100vh;
+    cursor: url(../images/cursor.png), auto;
+    position: relative;
+    background-color: #800020;
+    display: flex;
+    align-items: center;
 
+    .container {
+        position: relative;
+
+        img {
+            height: auto;
+            width: 100vw;
+        }
+    }
+}
 @media (max-width: 760px) {
-  .grunwald {
-  background-size: cover;
-  background-color: #800020;
-  cursor: auto;
- }
+    .grunwald {
+        background: url("../images/bitwa.jpg") no-repeat center center fixed;
+        -webkit-background-size: contain;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-size: cover;
+        background-color: #800020;
+        cursor: auto;
+
+        img {
+            display: none;
+        }
+    }
 }

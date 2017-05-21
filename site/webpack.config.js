@@ -1,7 +1,7 @@
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
-  entry: "./js/grunwald00.js",
+  entry: "./js/app.jsx",
   output: { filename: "./js/out.js" },
   watch: true,
   module: {
@@ -15,7 +15,7 @@ module.exports = {
                 test: /\.scss$/,
                  loaders: ['style-loader', 'css-loader', 'sass-loader']
             },
-      { test: /\.jpg$|\.gif$|\.png$|\.svg$/, loader: "file-loader?name=[path][name].[ext]" }
+      { test: /\.jpg$|\.gif$|\.png$|\.svg$/, exclude: /node_modules/, loader: "file-loader?name=[path][name].[ext]" }
 
 
     ]
