@@ -13,6 +13,7 @@ export default class Popup extends React.Component {
 
   closePopup() {
     this.setState({isClosed: true});
+    this.props.close();
   }
 
   render(){

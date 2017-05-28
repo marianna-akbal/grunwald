@@ -1,0 +1,33 @@
+.close-btn{
+    background-image: url("../images/close.png");
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+.mute-btn {
+    // background-color: white;
+    background-color: rgba(140, 0, 26, 0.8);
+    background-image: url('../images/play.png');
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 1.5rem;
+    padding: 10px;
+    position: absolute;
+    left: 16%;
+    top: 1%;
+    z-index: 2;
+
+    &.muted{
+        background-image: url('../images/mute.png');
+    }
+}
+
+@media (max-width: 760px) {
+    .mute-btn{
+        left: 24%;
+    }
+}

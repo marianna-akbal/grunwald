@@ -10,40 +10,35 @@ export default class Hotspot extends React.Component {
         }
     }
 
+    updateDimensions(){
+        let thisComponent = ReactDOM.findDOMNode(this);
+        this.boundries = thisComponent.getBoundingClientRect();
+        
+    }
+
+    componentDidMount(){
+        let thisComponent = ReactDOM.findDOMNode(this);
+        window.addEventListener('resize', this.updateDimensions.bind(this));
+        this.boundries = thisComponent.getBoundingClientRect();
+        this.props.addPointer(this.boundries);
+    }
+
+    componentWillUnmount(){
+        window.removeEventListener('resize', this.updateDimensions)
+    }
+
     handleMouseEnter() {
         this.setState({isActive: true});
+        console.log(this.boundries)
+        this.props.handleShow(this.props.id, this.props.title, this.props.description, this.boundries)
     }
 
     handleMouseLeave() {
-        this.setState({isActive: false});
-    }
-
-    render() {
-        let style = {
-            position: 'absolute',
-            width: this.props.width,
-            height: this.props.height,
-            top: this.props.top,
-            left: this.props.left,
-            backgroundColor: this.state.isActive
-                ? 'rgba(255,0,0,0.25)'
-                : 'transparent'
-        }
-
-        return <path id={this.props.id} d={this.props.points} style={{fill: "lime"}} onMouseEnter={e => this.handleMouseEnter()} onMouseLeave={e => this.handleMouseLeave()}/>
-
-        if (this.state.isActive) {
-            return <div className='hotspot'>
-                <path id={this.props.id} d={this.props.points} style={this.state.style} onMouseEnter={e => this.handleMouseEnter()} onMouseLeave={e => this.handleMouseLeave()}/>
-                <div className='info'>
-                    <h1>{this.props.title}</h1>
-                    <text>{this.props.description}</text>
-                </div>
-            </div>;
-        } else {
-            return <div className='hotspot'>
-                <path id={this.props.id} d={this.props.points} style={this.state.style} onMouseEnter={e => this.handleMouseEnter()} onMouseLeave={e => this.handleMouseLeave()}/>
-            </div>;
-        }
+         this.setState({isActive: false});
+        //this.props.handleHide()
     }
 }
+
+
+
+

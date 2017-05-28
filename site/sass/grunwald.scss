@@ -13,26 +13,43 @@
         img {
             height: auto;
             width: 100vw;
+            transition: 0.3s all;
+            filter: blur(1.5px);
         }
 
         svg {
-          height: auto;
-          width: 100vw;
+            height: auto;
+            width: 100vw;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .popup{
+            position: absolute;
+            // max-width: 15%;
+            width:auto;
+            max-height: 65%;
+            max-width: 35%;
         }
     }
 }
 @media (max-width: 760px) {
     .grunwald {
         background: url("../images/bitwa.jpg") no-repeat center center fixed;
-        -webkit-background-size: contain;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
         background-size: cover;
         background-color: #800020;
         cursor: auto;
 
         img {
+            display: none;
+        }
+
+        svg {
+            display: none;
+        }
+
+        .pulse {
             display: none;
         }
     }

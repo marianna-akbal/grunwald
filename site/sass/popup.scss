@@ -1,13 +1,24 @@
 .popup {
     position: absolute;
     background-color: rgba(140, 0, 26, 0.8);
-    width: 35%;
+    width: 25%;
     padding-bottom: 30px;
     color: white;
     padding: 20px;
     top: 25%;
     left: 7%;
     text-align: center;
+
+    h3{
+      font-size: 1.5rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    span{
+      font-size: 1.5rem;
+    }
 
     &.closed {
       display: none;
