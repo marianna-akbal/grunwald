@@ -11,14 +11,14 @@ var Question = React.createClass({
     var answersNodes = Object.keys(this.props.data.answers).map(function(value, index){
       return (
         <div className="answers">
-          <input
-            id={"answer-input-" + index}
+          <input key={"answer-input-" + index + "-" + this.props.id}
+            id={"answer-input-" + index + "-" + this.props.id}
             type="checkbox"
             value={value}
             onChange={this.props.setAnswer}
             defaultChecked={false}
           />
-          <label htmlFor={"answer-input-" + index}>
+          <label htmlFor={"answer-input-" + index + "-" + this.props.id}>
             {(parseInt(index) + 1) + ": " + this.props.data.answers[index].value}
           </label>
         </div>

@@ -38,6 +38,7 @@ class App extends React.Component {
     showQuiz() {
       let newState = this.state;
       newState.isQuizVisible = !this.state.isQuizVisible;
+      this.refs.quiz.reset();
       this.setState(newState);
       console.log("Show quiz");
     }
@@ -56,11 +57,14 @@ class App extends React.Component {
 
     render(){
         return <div>
-            <Sound mute={this.state.isMuted} />
+          <Sound mute={this.state.isMuted} />
           <About isVisible = {this.state.isWhoVisible}  />
-          <MuteButton isMuted = {this.state.isMuted} mute={this.mute.bind(this)} />
-          <Quiz isVisible = {this.state.isQuizVisible} close ={this.showQuiz.bind(this)}  />
+          <div className="buttons-container">
           <WhoButton click={e => this.showWhoPopup()} />
+          <MuteButton isMuted = {this.state.isMuted} mute={this.mute.bind(this)} />
+          </div>
+          <Quiz ref="quiz" isVisible = {this.state.isQuizVisible} close ={this.showQuiz.bind(this)}  />
+          
           <QuizButton isVisible = {!this.state.isQuizVisible} click={e => this.showQuiz()} />
           <Grunwald isEnable={this.state.isEnable} />
           <Popup close={this.closeAbout.bind(this)} />

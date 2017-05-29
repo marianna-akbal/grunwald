@@ -169,6 +169,15 @@ var Quiz = React.createClass({
     console.log("close")
   },
 
+  reset: function() {
+    if(this.state.step == this.state.quiz.questions.length) {
+    let newState = this.state;
+    newState.user_answers = [];
+    newState.step = 0;
+    this.setState(newState);
+    }
+  },
+
   render: function(){
     if (!this.state.quiz.questions) {return <div></div>}
     return (
