@@ -19,39 +19,90 @@ var Quiz = React.createClass({
                 "title": "QUIZ WIEDZY O BITWIE POD GRUNWALDEM",
                 "questions": [
                     {
-                    "question": "Where is the first question?",
+                    "question": "Kto opuścił na ziemię chorągiew wojsk polskich z białym orłem?",
                     "answers": [
                         {
                         "is_right": true,
-                        "value": "Just here."
+                        "value": "Marcin z Wrocimowic"
                         },
                         {
                         "is_right": false,
-                        "value": "After this one."
-                        }
+                        "value": "Kazimierz V"
+                      },
+                      {
+                      "is_right": false,
+                      "value": "Zawisza Czarny"
+                    },
+                    {
+                    "is_right": false,
+                    "value": "Mikołaj Traba"
+                  }
+
                     ]
                     },
                     {
-                    "question": "For this question you need to tick the second and the third answers, ok?",
+                    "question": "Kto został następnym wielkim mistrzem krzyżackim po Ulrichu von Jungingenie",
                     "answers": [
                         {
                         "is_right": false,
-                        "value": "Not this one."
+                        "value": "Marquard von Salzbach"
                         },
                         {
                         "is_right": true,
-                        "value": "This one."
-                        },
-                        {
-                        "is_right": true,
-                        "value": "This one too."
+                        "value": "Heinrich von Plauen"
                         },
                         {
                         "is_right": false,
-                        "value": "No."
-                        }
-                    ]
+                        "value": "Domrat Grzymalczyk z Kobylan"
+                      },
+                      {
+                      "is_right": false,
+                      "value": "Nikt. Zakon Krzyżacki upadł po bitwie pod Grunwaldem."
                     }
+                    ]
+                  },
+                  {
+                  "question": "Wielki komtur to....",
+                  "answers": [
+                      {
+                      "is_right": false,
+                      "value": "Rodzaj chorągwi wojennej"
+                      },
+                      {
+                      "is_right": true,
+                      "value": "Zastępca wielkiego mistrza zakonu krzyżackiego"
+                      },
+                      {
+                      "is_right": false,
+                      "value": "Koń, którego dosiadał dowódca wojsk"
+                    },
+                    {
+                    "is_right": false,
+                    "value": "Sekretarz króla"
+                  }
+                  ]
+                },
+                {
+                "question": "Kim był Jan Długosz?",
+                "answers": [
+                    {
+                    "is_right": false,
+                    "value": "Czeskim bohaterem narodowym"
+                    },
+                    {
+                    "is_right": true,
+                    "value": "Autorem lubianych przez Matejkę 'Roczników'"
+                    },
+                    {
+                    "is_right": false,
+                    "value": "Paź na dworze króla Władysława Jagiełły"
+                  },
+                  {
+                  "is_right": true,
+                  "value": "Synem Jana Długosza uwiecznionego na obrazie Matejki"
+                }
+                ]
+              }
                 ]
                 }
     })
