@@ -9788,8 +9788,8 @@ var Grunwald = function (_React$Component) {
             newState.title = title;
             newState.description = description;
             newState.isVisible = true;
-            newState.left = boundries.left / this.svgBoundries.width < 0.7 ? boundries.left + boundries.width : boundries.left - (boundries.width + this.svgBoundries.width / 3);
-            newState.top = boundries.top - this.svgBoundries.top + "px";
+            newState.left = (boundries.left / this.svgBoundries.width < 0.7 ? boundries.left + boundries.width : boundries.left - (boundries.width + this.svgBoundries.width / 3)) + "px";
+            newState.top = (boundries.top / this.svgBoundries.height < 0.35 ? boundries.top - this.svgBoundries.top : boundries.top - this.svgBoundries.top - this.svgBoundries.height * 0.35) + "px";
             this.setState(newState);
 
             console.log("SVG " + this.svgBoundries.top);
