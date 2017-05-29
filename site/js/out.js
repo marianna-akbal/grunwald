@@ -791,7 +791,7 @@ module.exports = __webpack_require__(21);
 "use strict";
 
 
-module.exports = __webpack_require__(137);
+module.exports = __webpack_require__(136);
 
 
 /***/ }),
@@ -1157,7 +1157,7 @@ module.exports = ReactComponentTreeHook;
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(152);
+  var ReactDebugTool = __webpack_require__(151);
   debugTool = ReactDebugTool;
 }
 
@@ -2640,7 +2640,7 @@ module.exports = DOMLazyTree;
 
 
 
-var ReactRef = __webpack_require__(166);
+var ReactRef = __webpack_require__(165);
 var ReactInstrumentation = __webpack_require__(10);
 
 var warning = __webpack_require__(2);
@@ -2816,16 +2816,16 @@ module.exports = ReactReconciler;
 
 var _assign = __webpack_require__(4);
 
-var ReactChildren = __webpack_require__(196);
+var ReactChildren = __webpack_require__(195);
 var ReactComponent = __webpack_require__(50);
-var ReactPureComponent = __webpack_require__(201);
-var ReactClass = __webpack_require__(197);
-var ReactDOMFactories = __webpack_require__(198);
+var ReactPureComponent = __webpack_require__(200);
+var ReactClass = __webpack_require__(196);
+var ReactDOMFactories = __webpack_require__(197);
 var ReactElement = __webpack_require__(17);
-var ReactPropTypes = __webpack_require__(199);
-var ReactVersion = __webpack_require__(202);
+var ReactPropTypes = __webpack_require__(198);
+var ReactVersion = __webpack_require__(201);
 
-var onlyChild = __webpack_require__(205);
+var onlyChild = __webpack_require__(204);
 var warning = __webpack_require__(2);
 
 var createElement = ReactElement.createElement;
@@ -3755,10 +3755,10 @@ module.exports = EventPluginRegistry;
 var _assign = __webpack_require__(4);
 
 var EventPluginRegistry = __webpack_require__(27);
-var ReactEventEmitterMixin = __webpack_require__(156);
+var ReactEventEmitterMixin = __webpack_require__(155);
 var ViewportMetrics = __webpack_require__(70);
 
-var getVendorPrefixedEventName = __webpack_require__(191);
+var getVendorPrefixedEventName = __webpack_require__(190);
 var isEventSupported = __webpack_require__(47);
 
 /**
@@ -4730,7 +4730,7 @@ module.exports = shallowEqual;
 
 
 var DOMLazyTree = __webpack_require__(19);
-var Danger = __webpack_require__(129);
+var Danger = __webpack_require__(128);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
@@ -6748,6 +6748,12 @@ var Hotspot = function (_React$Component) {
             window.removeEventListener('resize', this.updateDimensions);
         }
     }, {
+        key: 'getBoundries',
+        value: function getBoundries() {
+            var thisComponent = _reactDom2.default.findDOMNode(this);
+            return thisComponent.getBoundingClientRect();
+        }
+    }, {
         key: 'handleMouseEnter',
         value: function handleMouseEnter() {
             this.setState({ isActive: true });
@@ -6953,7 +6959,7 @@ module.exports = getActiveElement;
 // Therefore we re-export development-only version with all the PropTypes checks here.
 // However if one is migrating to the `prop-types` npm library, they will go through the
 // `index.js` entry point, and it will branch depending on the environment.
-var factory = __webpack_require__(123);
+var factory = __webpack_require__(122);
 module.exports = function(isValidElement) {
   // It is still allowed in 15.5.
   var throwOnDirectAccess = false;
@@ -7281,7 +7287,7 @@ var DOMProperty = __webpack_require__(15);
 var ReactDOMComponentTree = __webpack_require__(5);
 var ReactInstrumentation = __webpack_require__(10);
 
-var quoteAttributeValueForBrowser = __webpack_require__(192);
+var quoteAttributeValueForBrowser = __webpack_require__(191);
 var warning = __webpack_require__(2);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -7885,7 +7891,7 @@ module.exports = ReactHostComponent;
 
 
 
-var ReactDOMSelection = __webpack_require__(147);
+var ReactDOMSelection = __webpack_require__(146);
 
 var containsNode = __webpack_require__(103);
 var focusNode = __webpack_require__(54);
@@ -8022,12 +8028,12 @@ var React = __webpack_require__(21);
 var ReactBrowserEventEmitter = __webpack_require__(28);
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMContainerInfo = __webpack_require__(139);
-var ReactDOMFeatureFlags = __webpack_require__(141);
+var ReactDOMContainerInfo = __webpack_require__(138);
+var ReactDOMFeatureFlags = __webpack_require__(140);
 var ReactFeatureFlags = __webpack_require__(64);
 var ReactInstanceMap = __webpack_require__(25);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMarkupChecksum = __webpack_require__(161);
+var ReactMarkupChecksum = __webpack_require__(160);
 var ReactReconciler = __webpack_require__(20);
 var ReactUpdateQueue = __webpack_require__(42);
 var ReactUpdates = __webpack_require__(12);
@@ -8834,11 +8840,11 @@ module.exports = getTextContentAccessor;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var ReactCompositeComponent = __webpack_require__(136);
+var ReactCompositeComponent = __webpack_require__(135);
 var ReactEmptyComponent = __webpack_require__(63);
 var ReactHostComponent = __webpack_require__(65);
 
-var getNextDebugID = __webpack_require__(204);
+var getNextDebugID = __webpack_require__(203);
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
@@ -9082,9 +9088,9 @@ module.exports = setTextContent;
 var _prodInvariant = __webpack_require__(3);
 
 var ReactCurrentOwner = __webpack_require__(13);
-var REACT_ELEMENT_TYPE = __webpack_require__(155);
+var REACT_ELEMENT_TYPE = __webpack_require__(154);
 
-var getIteratorFn = __webpack_require__(189);
+var getIteratorFn = __webpack_require__(188);
 var invariant = __webpack_require__(1);
 var KeyEscapeUtils = __webpack_require__(38);
 var warning = __webpack_require__(2);
@@ -9297,7 +9303,7 @@ var ReactCurrentOwner = __webpack_require__(13);
 var ReactComponentTreeHook = __webpack_require__(9);
 var ReactElement = __webpack_require__(17);
 
-var checkReactTypeSpec = __webpack_require__(203);
+var checkReactTypeSpec = __webpack_require__(202);
 
 var canDefineProperty = __webpack_require__(33);
 var getIteratorFn = __webpack_require__(82);
@@ -9738,14 +9744,17 @@ var Grunwald = function (_React$Component) {
         };
 
         _this.pointers = [];
+        _this._refi = 0;
         return _this;
     }
 
     _createClass(Grunwald, [{
         key: 'updateDimensions',
         value: function updateDimensions() {
+            this._refi = 0;
             if (this.props.isEnable) {
                 this.svgBoundries = this.refs.clippingSvg.getBoundingClientRect();
+                this.forceUpdate();
             }
         }
     }, {
@@ -9792,12 +9801,27 @@ var Grunwald = function (_React$Component) {
             var newState = this.state;
             newState.isVisible = false;
             this.setState(newState);
+            this._refi = 0;
         }
     }, {
         key: 'addPointer',
         value: function addPointer(boundries) {
             this.pointers.push(boundries);
             this.forceUpdate();
+        }
+    }, {
+        key: 'makeRef',
+        value: function makeRef() {
+            return 'HotSpot-' + this._refi++;
+        }
+    }, {
+        key: 'refsToArray',
+        value: function refsToArray(ctx, prefix) {
+            var results = [];
+            for (var i = 1;; i++) {
+                var ref = ctx.refs[prefix + '-' + String(i)];
+                if (ref) results.push(ref);else return results;
+            }
         }
     }, {
         key: 'render',
@@ -9827,12 +9851,15 @@ var Grunwald = function (_React$Component) {
             }
             var points = [];
             if (!this.state.isVisible) {
-                this.pointers.forEach(function (item) {
+                var hotspots = this.refsToArray(this, "HotSpot");
+                hotspots.forEach(function (item) {
+                    var boundries = item.getBoundries();
                     var style = {
-                        left: item.left + item.width / 2.0 - 25.0 / 2 + "px",
-                        top: item.top - _this2.svgBoundries.top - 25.0 / 2 + item.height / 2.0 + "px",
+                        left: boundries.left + boundries.width / 2.0 - 25.0 / 2 + "px",
+                        top: boundries.top - _this2.svgBoundries.top - 25.0 / 2 + boundries.height / 2.0 + "px",
                         animation: 'pulsate ' + Math.floor(Math.random() * 2 + 1) + 's ease-out ' + Math.floor(Math.random() * 3 + 1) + 's infinite',
-                        animationIterationCount: "infinite"
+                        animationIterationCount: "infinite",
+                        pointerEvents: "none"
                     };
 
                     points.push(_react2.default.createElement('div', { className: 'pulse', style: style }));
@@ -9850,13 +9877,15 @@ var Grunwald = function (_React$Component) {
                         { ref: 'clippingSvg', version: '1.0', x: '0px', y: '0px', viewBox: '0 0 3554 1537' },
                         _react2.default.createElement('image', { style: style, width: '3554', height: '1537', href: 'images/bitwa.jpg' }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-1',
                             id: 'jagiello',
                             points: 'M84.1,158.6c0,4.5-19.5,72-19.5,72l19.5,51l6,142.5l21,40.5l51-52.5v-94.5l61.5-115.5l37.5-30 l39-72.1l27-89.9l36-33l60-43.5l7.5-90l-21-121.5l-31.5-52.5l-57,49.5l-25.5,132l-21-15l-10.5-58.5l-67.5-30l-25.5,94.5l-22.5,28.5 l-108-70.5l-3-36l76.5-202.5l-18-30l-129,273L106.6-55.9l42,55.9l-16.5,73.1L84.1,158.6z',
-                            title: 'Wielki ksi\u0105\u017Ce Litwy Witold', description: 'Matejko, za Dlugoszem, wskazuje 60-letniego ksi\u0119cia Witolda jako kluczow\u0105 posta\u0107 bitwy. Witold mia\u0142 w trakcie bitwy zruga\u0107 swgo kuzyna - W\u0142adys\u0142awa Jagie\u0142\u0142\u0119 za to, \u017Ce w oddaleniu s\u0142ucha mszy \u015Bwi\u0119tej. Zwyci\u0119stwo w bitwie by\u0142o niema\u0142 wy\u0142\u0105czn\u0105 zas\u0142ug\u0105 Witolda i jego wojsk. Na obrazie za ksi\u0119ciem chyli sie ku upadkowi chor\u0105giew wielkiego mistrza krzy\u017Cackigo.',
+                            title: 'Wielki ksi\u0105\u017Ce Litwy Witold', description: 'Matejko, za Dlugoszem, wskazuje 60-letniego ksi\u0119cia Witolda jako kluczow\u0105 posta\u0107 bitwy. Witold mia\u0142 w trakcie bitwy zruga\u0107 swgo kuzyna - W\u0142adys\u0142awa Jagie\u0142\u0142\u0119 za to, \u017Ce w oddaleniu s\u0142ucha mszy \u015Bwi\u0119tej.\r Zwyci\u0119stwo w bitwie by\u0142o niema\u0142 wy\u0142\u0105czn\u0105 zas\u0142ug\u0105 Witolda i jego wojsk.\r Na obrazie za ksi\u0119ciem chyli sie ku upadkowi chor\u0105giew wielkiego mistrza krzy\u017Cackigo.',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-2',
                             id: 'swStanislaw',
                             points: '-284,-584.7 -262,-648.7 -232,-677.3 -192,-648 -169.3,-609.3 -146,-572.7 -151.3,-508 -170,-446 -201.3,-414.7 -238.7,-438 -273.3,-450.7 -300.7,-517.3',
                             title: '\u015Awi\u0119ty Stanis\u0142aw', description: 'Stanis\u0142aw ze Szczepanowa, jeden z patron\xF3w Polski, kt\xF3ry w czasie bitwy mia\u0142 si\u0119 ukaza\u0107 rycerstwu na niebie.',
@@ -9864,6 +9893,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-3',
                             id: 'ulrich',
                             points: '-746,81 -777,59 -790,30 -826,24 -849,-43 -827,-87 -782,-77 -735,-57 -727,-108 -682,-123 -626,-134 -604,-84 -604,-28 -540,0 -504,33 -506,68 -415,98 -401,137 -478,247 -499,352 -557,422 -713,330 -802,278 \t-748,194 -709,135',
                             title: 'Ulrich von Jungingen', description: 'Wielki mistrz zakonu krzy\u017Cackiego, kt\xF3ry zgin\u0105\u0142 w bitwie pod Grunwaldem. Wizja jego \u015Bmierci jest w ca\u0142o\u015Bci dzie\u0142em wyobra\u017Ani Matejki. Twarz wielkiego mistrza widzimy dzieki temu, \u017Ce malarz ukaza\u0142 posta\u0107 w ekwilibrystycznym obrocie w pasie o oko\u0142o 50 stopni.  Kr\xF3l W\u0142adys\u0142aw Jagie\u0142\u0142o poleci\u0142 odes\u0142a\u0107 cia\u0142o z honorami do stolicy pa\u0144stwa zakonnego. Wielki mistrz zosta\u0142 pochowany w kaplicy \u015Bw. Anny na zamku krzy\u017Cackim w Malborku.',
@@ -9871,6 +9901,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-4',
                             id: 'Werner-5',
                             points: '-890,120 -930,196 -902,282 -880,360 -810,332 -756,228 -760,164 -820,128 -834,84 -872,66',
                             title: 'Werner von Tettingen', description: 'Szwajcar. Wielki szpitalnik zakonu krzy\u017Cackiego. W bitwie pod Grunwaldem, walczy\u0142 pod swoj\u0105 chor\u0105gwi\u0105 komturstwa elbl\u0105skiego. W czasie bitwy uciek\u0142 i ju\u017C nigdy nie podni\xF3s\u0142 si\u0119 psychicznie po tym czynie. Na obrazie podnosi r\u0119ce jakby chcia\u0142 chroni\u0107 wielkiego mistrza przed upadkiem.',
@@ -9878,34 +9909,39 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-5',
                             id: '_x31_',
-                            points: '-1388.3,95.7 -1346.3,71.3 -1300.7,35 -1269.7,-17 -1298.7,-93 -1332.3,-149.3 -1333.7,-176.7 -1370,-216.3 -1389,-201 -1406,-161.7 -1417,-116.3 -1468.7,-40.3 -1478,15 \t',
+                            points: '-1388.3,95.7 -1346.3,71.3 -1300.7,35 -1269.7,-17 -1298.7,-93 -1332.3,-149.3\r -1333.7,-176.7 -1370,-216.3 -1389,-201 -1406,-161.7 -1417,-116.3 -1468.7,-40.3 -1478,15 \t',
                             title: 'Jakub Skarbek z G\xF3ry',
                             description: 'Wywodzi\u0142 si\u0119 ze starego polskiego rodu szlacheckiego Skarbk\xF3w. Pocz\u0105tkowo by\u0142 w s\u0142u\u017Cbie kr\xF3la Zygmunta Luksemburskiego, a od 1410 r. u kr\xF3la W\u0142adys\u0142awa II Jagie\u0142\u0142y. Zgodnie z relacjami historycznymi Skarbek na czele w\u0142asnej chor\u0105gwi wzi\u0105\u0142 udzia\u0142 w bitwie pod Grunwaldem gdzie by\u0142 jednym z dziewi\u0119ciu przedchor\u0105giewnych, strzeg\u0105cych wielkiej chor\u0105gwi Kr\xF3lestwa Polskiego. Odznaczy\u0142 si\u0119 w walce m\u0119stwem atakuj\u0105c ksi\u0119cia szczeci\u0144skiego Kazimierza V i bior\u0105c go do niewoli.',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
-                            id: 'anonimowy-2', points: 'M-1436.5,241.5l-56,71l-41.5,27l-28.5-7.5c0,0-23.5,25-23.5,26.5s33.5,41,33.5,41l96-56 l62.5-46l46,18l64.5-71.5l118-61l44.5-46l32-13.5l-16-39l-38-6.5l-47,60.5l-55.5,31l-46.5-8.5l-4.5-35.5l-26-32.5l-62.5,7l-22.5,47 l2,38.5L-1436.5,241.5z',
+                            ref: 'HotSpot-6',
+                            id: 'anonimowy-2', points: 'M-1436.5,241.5l-56,71l-41.5,27l-28.5-7.5c0,0-23.5,25-23.5,26.5s33.5,41,33.5,41l96-56\r l62.5-46l46,18l64.5-71.5l118-61l44.5-46l32-13.5l-16-39l-38-6.5l-47,60.5l-55.5,31l-46.5-8.5l-4.5-35.5l-26-32.5l-62.5,7l-22.5,47 l2,38.5L-1436.5,241.5z',
                             title: 'Anonimowy uczestnik bitwy',
                             description: 'Jeden z wielu anonimowych postaci uwiecznionych na obrazie. Prawdopodobnie giermek.',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-7',
                             id: '_x34_',
                             points: '-942.7,173 -911.7,145 -895.3,125.3 -891.7,93 -916.3,77 -938.7,68.3 -980,90.3 -972.3,132',
                             title: 'Brat zakonny', description: 'W pa\u0144stwie krzy\u017Cackim zakonna elita liczy\u0142a najwy\u017Cej 450 rycerzy. Tylko oni mogli nosi\u0107 bia\u0142e p\u0142aszcze z czarnym krzy\u017Cem. Podczas bitwy zgin\u0119\u0142o 211 z nich.', handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
-                            id: '_x35_', points: 'M-1210.7,126l53.3-37l28-48.7l38.3-51.7l1.7-60l-15-31l-58-66.7l21.3-30c0,0-28.7-3.3-29.7-3.7 c-1-0.3-27.7-18.3-27.7-18.3l-27.3-30.7l-45.7,22.3l6.3,26.3l-46.7,38.3l7.7,41.7l30,54l37,49.7l2.7,105.7L-1210.7,126z',
+                            ref: 'HotSpot-7',
+                            id: '_x35_', points: 'M-1210.7,126l53.3-37l28-48.7l38.3-51.7l1.7-60l-15-31l-58-66.7l21.3-30c0,0-28.7-3.3-29.7-3.7\r c-1-0.3-27.7-18.3-27.7-18.3l-27.3-30.7l-45.7,22.3l6.3,26.3l-46.7,38.3l7.7,41.7l30,54l37,49.7l2.7,105.7L-1210.7,126z',
                             title: 'Kazimierz V',
                             description: 'Ksi\u0105\u017Ce szczeci\u0144ski z dynastii Gryfit\xF3w, kt\xF3ry stan\u0105\u0142 po stronie Krzy\u017Cak\xF3w.Obr\xF3cony jest do widza plecami i zadaje cios mieczem z p\xF3\u0142obrotu. Jego posta\u0107 pokazuje, \u017Ce w\u015Br\xF3d sojusznik\xF3w von JUnginegena by\u0142o wiele oddzia\u0142\xF3w gdzie dominowa\u0142 j\u0119zyk polski.30 letni Kazimierz V w bitwie trafi\u0142 do niewoli.Zosta\u0142 z niej zwolniony 8 czerwca 1411, za por\u0119czeniem Bogus\u0142awa VIII, ksi\u0119cia stargardzkiego i s\u0142upskiego i cen\u0119 p\xF3\u017Aniejszej wsp\xF3\u0142pracy ksi\u0105\u017C\u0105t szczeci\u0144skich z Koron\u0105',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-8',
                             id: '_x39_', points: 'M-400,39.5C-403,36-318,0-318,0l10.5-84l-30-54.5l-65,6l-33,62.5L-400,39.5z',
                             title: 'Zyndram z Maszkowic',
                             description: 'Rycerz herbu S\u0142o\u0144ce.Podczas wyprawy grunwaldzkiej pe\u0142ni\u0142 funkcj\u0119 obo\u017Anego koronnego (\u0142ac.Praefectus castrorum). Wed\u0142ug Jana D\u0142ugosza w dniu 9 lipca 1410 roku zosta\u0142 mianowany przez kr\xF3la W\u0142adys\u0142awa \'dowodz\u0105cym wojskiem\'. Z rozkazu kr\xF3la rozstawia\u0142 przed bitw\u0105 pod Grunwaldem chor\u0105gwie skrzyd\u0142a polskiego. W czasie bitwy prowadzi\u0142 do boju chor\u0105giew ziemi krakowskiej. Po wyprawie grunwaldzkiej nie otrzyma\u0142 \u017Cadnej nagrody od kr\xF3la, co mog\u0142o mie\u0107 zwi\u0105zek z upadkiem w trakcie bitwy wielkiej chor\u0105gwi kr\xF3lestwa.',
@@ -9913,6 +9949,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-9',
                             id: '_x31_0',
                             points: '-201.7,0 -183,-36.3 -167.3,-109 -201,-134.3 -217.3,-167 -275,-183.3 -321,-259.7 \t-346,-266.7 -346,-180.3 -283.3,-86.7 -236,15 ',
                             title: 'Miko\u0142aj Skunarowski vel Skunaczewski', description: 'Na obrazie zadaje pchni\u0119cie mieczem rycerzowi zakonnemu, kt\xF3ry trzyma upadaj\u0105c\u0105 choragiew wielkiego mistrza. Skunarowski po bitwie ze zdobyczn\u0105 flag\u0105 biskupa pomeza\u0144skiego uda\u0142 si\u0119 do Krakowa aby obwie\u015Bci\u0107 zwyci\u0119stwo.',
@@ -9920,6 +9957,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-10',
                             id: '_x31_1',
                             points: '-444,548 -476,356 -514,224 -582,144 -466,170 -388,138 -210,130 -112,226 -206,324 -228,446 -214,486 -278,536 -392,574',
                             title: 'Anonimowe postacie',
@@ -9928,6 +9966,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-11',
                             id: '_x31_4', points: 'M452-88.5c1-3.5,5.5-81,5.5-81l28.5-9l95.5,47.5l29,69.5l-36,84.5l-99-53l-33-30L452-88.5z',
                             title: 'Marcin z Wrocimowic',
                             description: 'Chor\u0105\u017Cy Ziemi Krakowskiej.Marcin w ferworze bitwy upu\u015B\u0107i\u0142 chor\u0105giew na zimi\u0119 a Krzy\u017Cacy zaczeli \u015Bpiewa\u0107 wtedy triumfaln\u0105 pie\u015B\u0144 jednak dzi\u0119ki innym rycerzom za\u017Cegnano niebezpiecze\u0144stwo.',
@@ -9935,6 +9974,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-12',
                             id: '_x31_5', points: 'M619.5,365.5c0-1.5,32.5-106,32.5-106l-66.5-67l25-39l61-46L723,157l25.5-36.5l39,8l6,85l29,47.5\tl-61,53.5L731,397l-102,7.5L619.5,365.5z',
                             title: 'Jan \u017Di\u017Eka z Trocnova',
                             description: 'Przyw\xF3dca i strateg taboryt\xF3w w czasie wojen husyckich. Czeski bohater narodowy. Do walki z Krzy\u017Cakami zach\u0119ci\u0142a go ch\u0119\u0107 legalnego zarobku. Na s\u0142u\u017Cb\u0119 w oddzia\u0142ach kr\xF3la W\u0142adys\u0142awa zgodzi\u0142o si\u0119 nawet 3-4 tys. rycerzy czeskich i morawskich. Prawdopodobnie w samej bitwie \u017Di\u017Eka nie uczestniczy\u0142 jednak Matejko nie m\xF3g\u0142 odm\xF3wi\u0107 sobie pomini\u0119cia postaci o tak s\u0142awnym nazwisku.',
@@ -9942,6 +9982,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-13',
                             id: '_x31_6',
                             points: '865,125.5 953,96 944,-19 936,-66.5 897.5,-138.5 865,-137.5 846.5,-74 777.5,-41.5 759.5,58.5 847,167.5',
                             title: 'Zawisza Czarny z Grabowa', description: 'Polski rycerz, symbol cn\xF3t rycerskich. Na wie\u015B\u0107 o wojnie z Krzy\u017Cakami porzuci\u0142 karier\u0119 na dworze kr\xF3la W\u0119gier i uda\u0142 si\u0119 do Krakowa. Niewykluczone, \u017Ce to w\u0142a\u015Bnie Zawisza w krytycznym momencie bitwy uratowa\u0142 kr\xF3lewski sztandar, cho\u0107 nie ma na to wyra\u017Anych dowod\xF3w.',
@@ -9949,6 +9990,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-14',
                             id: '_x31_7', points: 'M929.5-90.5l45,17.5l25.5,18.5c0,0,27-30.5,25-32s-24-40.5-24-40.5l-48-24.5l-23.5,3l-8,33.5\tL929.5-90.5z',
                             title: 'Domrat Grzymalczyk z Kobylan',
                             description: 'Przyboczny Jagie\u0142\u0142y, p\xF3\u017Aniejszy kasztelan lubelski.',
@@ -9956,13 +9998,15 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
-                            id: '_x31_8', points: 'M830.5,760c2.5,1,76,31.5,76,31.5l129-37.5c0,0,72-17,70.5-19.5s-48-137-48-137s77.5-44,73.5-48 s-33.5-107-33.5-107l125.5-68l-131.5,16l-73-43L967.5,393l-30-48l48-43L892,364.5l27.5,80.5L905,587.5L828.5,715L809,741.5 L830.5,760z',
+                            ref: 'HotSpot-15',
+                            id: '_x31_8', points: 'M830.5,760c2.5,1,76,31.5,76,31.5l129-37.5c0,0,72-17,70.5-19.5s-48-137-48-137s77.5-44,73.5-48\r s-33.5-107-33.5-107l125.5-68l-131.5,16l-73-43L967.5,393l-30-48l48-43L892,364.5l27.5,80.5L905,587.5L828.5,715L809,741.5 L830.5,760z',
                             title: 'Henrich von Schwelborn',
                             description: 'Komandor tucholski, kt\xF3ry za chwil\u0119 ma ptrzyma\u0107 cios mieczem od Jana \u017Bi\u017Bki. Wed\u0142ug relacji D\u0142ugosza Henryk uciek\u0142 z pola bitwy grunwaldzkiej, a we wsi Wielgnowa opad\u0142 go po\u015Bcig i zosta\u0142 zabity przez obci\u0119cie g\u0142owy.',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-16',
                             id: '_x31_9', points: 'M1176.5,156c0,1.5,12,46,12,46l62.5,2.5l89.5-41.5l24.5-41l-45.5-57l-36-19.5l-101,31l-10,37.5 L1176.5,156z',
                             title: 'Jan D\u0142ugosz',
                             description: 'Ojciec kronikarza Jana D\u0142ugosza, autora tak lubianych przez Matejk\u0119 \'Rocznik\xF3w\'. Pod Grunwaldem schwyta\u0142 von Salzbacha licz\u0105c na wysoki okup za je\u0144ca. Niestety dla niego Witold postanowi\u0142 go straci\u0107 za dawne porachunki (podobno nazwa\u0142 matk\u0119 wielkiego ksi\u0119cia \'ladacznic\u0105 i nieczyst\u0105 matron\u0105\'). W podzi\u0119kowaniu za postaw\u0119 D\u0142ugosza w bitwie Jagie\u0142\u0142o zosta\u0142 protektorem jego rodziny co pozwoli\u0142o jej na si\u0119gni\u0119cie po wysokie pa\u0144stwowe urz\u0119dy.',
@@ -9970,6 +10014,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-17',
                             id: '_x32_0', points: 'M1389.5,354c2,1,31.5,48,31.5,48l50.5,17.5l12.5,22l32.5-11.5c0,0-13.5,51-14,52.5s-31,74-31,74l-124-71.5c0,0-75.5-39-76-40.5s7-72,9-74.5s50-20.5,52-20.5S1365,368,1365,368L1389.5,354z',
                             title: 'Johan von Wenden',
                             description: 'Komtur krzy\u017Cacki , kt\xF3ry przed wojn\u0105 mia\u0142 si\u0119 narazi\u0107 von Jungingenowi jako przeciwnik militarnej konfrontacji z Polsk\u0105.',
@@ -9977,13 +10022,15 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
-                            id: '_x32_1', points: 'M1342,285.5l80,66.5c0,0,76,51.5,78,51s98.5-12,98.5-12s74.5-29,74-30.5s-66.5-80-68.5-80 s-76.5-41-76.5-41s-8-43.5-8.5-45s-31.5-24.5-31.5-24.5l-31,15l-21,37.5l-104,32.5L1342,285.5z',
+                            ref: 'HotSpot-18',
+                            id: '_x32_1', points: 'M1342,285.5l80,66.5c0,0,76,51.5,78,51s98.5-12,98.5-12s74.5-29,74-30.5s-66.5-80-68.5-80\r s-76.5-41-76.5-41s-8-43.5-8.5-45s-31.5-24.5-31.5-24.5l-31,15l-21,37.5l-104,32.5L1342,285.5z',
                             title: 'Marquard von Salzbach',
                             description: 'Komtur branderburski. Zgin\u0105\u0142 po bitwie pod Grunwaldem. Wed\u0142ug Jana D\u0142ugosza rycerza pojma\u0142 jego ojciec Jan D\u0142ugosz z Niedzielska. Zaraz po bitwie Marquard zosta\u0142 stracony na rozkaz wielkiego ksi\u0119cia Witolda. ',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-19',
                             id: '_x32_2',
                             points: '1460.5,-368 1474.5,-352 1502,-367 1508.5,-277 1546.5,-263.5 1589,-306 1580.5,-367 1548,-394 1527.5,-424 1497,-426 1457,-380 \t',
                             title: 'W\u0142adys\u0142aw Jagie\u0142\u0142o', description: 'Kr\xF3l Polski od 1386. Wielki ksi\u0105\u017C\u0119 litewski w latach 1377\u20131381 i 1382\u20131401, najwy\u017Cszy ksi\u0105\u017C\u0119 litewski od 1401 do chwili \u015Bmierci w 1434. Matejko ukaza\u0142 go jako t\u0142o dla bohater\xF3w biwy. Jan D\u0142ugodz w swoich relacjach pisa\u0142 o nim, \u017Ce by\u0142 w prowadzeniu wojen niedba\u0142y i ci\u0119\u017Cki. Jednak pod Grunwaldem podobno ochryp\u0142 od wydawania komend wi\u0119c mo\u017Ce s\u0142usznie jego postaw\u0119 por\xF3wnuje si\u0119 do chana Mamaja - wodza, kt\xF3ry pilnuje zwyciestwa obserwuj\u0105c bitw\u0119 ze wzg\xF3rza.',
@@ -9991,6 +10038,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-20',
                             id: '_x32_3', points: 'M1449-73.5c3.5,0,59,22.5,59,22.5l42.5,16l21,100L1681-16l18-120l-18.5-60l-44.5,20.5l-39.5,61 L1501-121l-78,37.5L1449-73.5z',
                             title: 'Heinrich von Plauen',
                             description: 'Komtur na zamku w \u015Awieciu. Nie uczestniczy\u0142 w bitwie o czym atejko musia\u0142 wiedzie\u0107.Na wie\u015B\u0107 o kl\u0119sce zakonu natychmiast pospieszy\u0142 ze swym hufcem do Malborka przewiduj\u0105c, \u017Ce tam w\u0142a\u015Bnie skieruj\u0105 si\u0119 oddzia\u0142y polsko-litewskie. Dotar\u0142 na czas \u2013 i to w du\u017Cej mierze dzi\u0119ki energicznej postawie von Plauena Krzy\u017Cacy utrzymali swoj\u0105 stolic\u0119. To da\u0142o mu godno\u015B\u0107 wielkiego mistrza. Pochowany w katedrze w Kwidzynie gdzie miejsce jego spoczynku jest atrakcj\u0105 turystyczn\u0105.',
@@ -9998,6 +10046,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-21',
                             id: '_x32_4',
                             points: '1775.5,-126 1830,-155.5 1842,-212 1774.5,-243 1734,-252 1703.5,-200 1705.5,-144 1753.5,-130 \t',
                             title: 'biskup Krzysztof', description: 'Biskup lubece\u0144ski, kt\xF3ry mia\u0142 uczestniczy\u0107 w bitwie po stronie krzy\u017Cackiej. Niestety w Lubece nie by\u0142o takiego ksi\u0119dza wi\u0119c prawdopodobnie jest to pomy\u0142ka sekretarza Matejki.',
@@ -10005,6 +10054,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-22',
                             id: '_x37',
                             points: '-190,696 -246,583 -263,522 -197,525 -118,529 -91,576 -81,705 \t',
                             title: 'Kuno von Lichtenstein', description: 'Dostojnik zakonu, kt\xF3ry od 1406r piastowa\u0142 godno\u015B\u0107 wielkiego komtura (zast\u0119pcy wielkiego mistrza). W bitwie pod Grunwaldem von Lichtenstein dowodzi\u0142 prawym skrzyd\u0142em armii zakonnej, zgin\u0105\u0142 prawdopodobnie walcz\u0105c w chor\u0105gwi wielkiej komturii. Wed\u0142ug Jana D\u0142ugosza uchodzi\u0142 za jednego z najlepszych szermierzy \xF3wczesnej Europy. Matejko uwieczni\u0142 go w chwili \u015Bmierci.',
@@ -10012,6 +10062,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
+                            ref: 'HotSpot-23',
                             id: '_x38', points: 'M194,568c-1-4-23-118-23-118l-99,11c0,0-40-47-43-47s-64,10-64,10l-53,98c0,0,85,104,90,104 s168-25,168-25L194,568z',
                             title: 'Konrad VII Bia\u0142y',
                             description: 'Ksi\u0105\u017Ce ole\u015Bnicki z dynstii Piast\xF3w. W trakcie bitwy by\u0142 niespe\u0142na 20-latkiem i walczy\u0142 po stronie Krzyzak\xF3w, chocia\u017C m\u0142odo\u015B\u0107 sp\u0119dzi\u0142 na Wawelu jako pa\u017A kr\xF3lowej Anny Cylejskiej. Wzi\u0119ty w czasie bitwy do niewoli przez Josta z Salcz. Po roku wroci\u0142 do domu i wyst\u0105pi\u0142 przeciwko Krzy\u017Cakom.',
@@ -10019,6 +10070,7 @@ var Grunwald = function (_React$Component) {
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_polygonhotspot2.default, {
+                            ref: 'HotSpot-24',
                             id: '_x32_5',
                             points: '-1582,-161 -1442,-209 -1368,-265 -1263,-293 -1412,-326 -1615,-297 -1631,-151 \t',
                             title: 'b\xF3j o ob\xF3z krzy\u017Cacki pod wsi\u0105 St\u0119bark', description: '',
@@ -10735,7 +10787,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(207)(content, options);
+var update = __webpack_require__(206)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -11122,7 +11174,7 @@ exports.default = PolygonHotspot;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -11144,22 +11196,22 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var PulseCircle = function (_React$Component) {
-  _inherits(PulseCircle, _React$Component);
+    _inherits(PulseCircle, _React$Component);
 
-  function PulseCircle(props) {
-    _classCallCheck(this, PulseCircle);
+    function PulseCircle(props) {
+        _classCallCheck(this, PulseCircle);
 
-    return _possibleConstructorReturn(this, (PulseCircle.__proto__ || Object.getPrototypeOf(PulseCircle)).call(this, props));
-  }
-
-  _createClass(PulseCircle, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement('div', { clasName: 'pulse' });
+        return _possibleConstructorReturn(this, (PulseCircle.__proto__ || Object.getPrototypeOf(PulseCircle)).call(this, props));
     }
-  }]);
 
-  return PulseCircle;
+    _createClass(PulseCircle, [{
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement('div', { clasName: 'pulse' });
+        }
+    }]);
+
+    return PulseCircle;
 }(_react2.default.Component);
 
 exports.default = PulseCircle;
@@ -11236,7 +11288,7 @@ exports = module.exports = __webpack_require__(100)(undefined);
 
 
 // module
-exports.push([module.i, ".grunwald {\n  width: 100vw;\n  height: 100vh;\n  position: relative;\n  background-color: #800020;\n  display: flex;\n  align-items: center; }\n  .grunwald .container {\n    position: relative; }\n    .grunwald .container img {\n      height: auto;\n      width: 100vw;\n      transition: 0.3s all;\n      filter: blur(1.5px); }\n    .grunwald .container svg {\n      height: auto;\n      width: 100vw;\n      position: absolute;\n      top: 0;\n      left: 0; }\n    .grunwald .container .popup {\n      position: absolute;\n      width: auto;\n      max-height: 65%;\n      max-width: 35%; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background: url(" + __webpack_require__(115) + ") no-repeat center center fixed;\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; }\n    .grunwald img {\n      display: none; }\n    .grunwald svg {\n      display: none; }\n    .grunwald .pulse {\n      display: none; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 25%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center; }\n  .popup h3 {\n    font-size: 1.5rem;\n    letter-spacing: 0.5rem;\n    text-transform: uppercase;\n    margin-bottom: 10px; }\n  .popup span {\n    font-size: 1.5rem; }\n  .popup.closed {\n    display: none; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile.closed {\n      display: none; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n#next {\n  background: url(" + __webpack_require__(120) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n#nextMobile {\n  background: url(" + __webpack_require__(121) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n#app {\n  overflow: hidden; }\n\n.hotspot {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0; }\n  .hotspot .info {\n    position: absolute;\n    top: -20%;\n    left: 120%;\n    background-color: white;\n    padding: 20px; }\n\n.whoButton {\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  font-size: 1.5rem;\n  padding: 10px;\n  position: absolute;\n  left: 7%;\n  z-index: 2; }\n\n.quizButton {\n  color: white;\n  font-size: 1.5rem;\n  /* padding: 10px; */\n  position: absolute;\n  right: 20%;\n  z-index: 2;\n  width: 70px;\n  text-align: center;\n  height: 70px;\n  top: 71px;\n  border-radius: 60px;\n  border: 1px;\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  text-align: center;\n  /* align-content: center; */\n  /* justify-content: center; */\n  line-height: 70px;\n  /* font-size: 3rem; */ }\n  .quizButton .label {\n    font-size: 2rem; }\n\n@media (max-width: 760px) {\n  .quizButton {\n    display: none; } }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n.pulse {\n  position: absolute;\n  height: 25px;\n  width: 25px;\n  left: 50%;\n  top: 45%;\n  opacity: 0;\n  border: 3px solid white;\n  border-radius: 40px;\n  animation: pulsate 3s ease-out;\n  animation-iteration-count: infinite; }\n\n.pulse-red {\n  position: absolute;\n  height: 80px;\n  width: 80px;\n  left: -10px;\n  top: -10px;\n  opacity: 1;\n  border: 5px solid rgba(140, 0, 26, 0.8);\n  border-radius: 80px;\n  animation: pulsate2 3s ease-out;\n  animation-iteration-count: infinite; }\n\n@keyframes pulsate {\n  0% {\n    transform: scale(0.1, 0.1);\n    opacity: 0.0; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 1.0; } }\n\n@keyframes pulsate2 {\n  0% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  33% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  66% {\n    transform: scale(1.5, 1.5);\n    opacity: 1; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 0.0; } }\n\n.quiz {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .4s;\n  right: 0;\n  font-size: 1.5rem;\n  color: white;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n  .quiz .container {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n    .quiz .container span {\n      font-size: 1.5rem;\n      color: white;\n      letter-spacing: 0.2rem;\n      line-height: 150%; }\n    .quiz .container h1 {\n      font-size: 2.2rem; }\n    .quiz .container h4 {\n      font-size: 1.5rem;\n      margin-top: 25px; }\n    .quiz .container input {\n      font-size: 1.2rem;\n      margin-top: 5px; }\n    .quiz .container button {\n      font-size: 1.2rem;\n      padding: 10px;\n      background-color: white;\n      border: none;\n      color: #800020;\n      text-transform: uppercase; }\n    .quiz .container .answers {\n      margin-top: 20px; }\n    .quiz .container .quizResult {\n      margin-top: 20px;\n      font-size: 1.5rem; }\n      .quiz .container .quizResult h3 {\n        font-size: 2rem;\n        margin-top: 20px; }\n      .quiz .container .quizResult div {\n        font-size: 1.5rem; }\n\n.close-btn {\n  background-image: url(" + __webpack_require__(116) + ");\n  background-size: cover;\n  width: 32px;\n  height: 32px;\n  filter: brightness(0) invert(1); }\n\n.mute-btn {\n  background-color: rgba(140, 0, 26, 0.8);\n  background-image: url(" + __webpack_require__(119) + ");\n  background-position-x: center;\n  background-position-y: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  font-size: 1.5rem;\n  padding: 10px;\n  position: absolute;\n  left: 16%;\n  top: 1%;\n  z-index: 2; }\n  .mute-btn.muted {\n    background-image: url(" + __webpack_require__(118) + "); }\n\n@media (max-width: 760px) {\n  .mute-btn {\n    left: 24%; } }\n\n.pull-right {\n  position: absolute;\n  top: 0;\n  right: 0; }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n", ""]);
+exports.push([module.i, ".grunwald {\n  width: 100vw;\n  height: 100vh;\n  position: relative;\n  background-color: #800020;\n  display: flex;\n  align-items: center; }\n  .grunwald .container {\n    position: relative; }\n    .grunwald .container img {\n      height: auto;\n      width: 100vw;\n      transition: 0.3s all;\n      filter: blur(1.5px); }\n    .grunwald .container svg {\n      height: auto;\n      width: 100vw;\n      position: absolute;\n      top: 0;\n      left: 0; }\n    .grunwald .container .popup {\n      position: absolute;\n      width: auto;\n      max-height: 65%;\n      max-width: 35%;\n      z-index: 2; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background: url(" + __webpack_require__(115) + ") no-repeat center center fixed;\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; }\n    .grunwald img {\n      display: none; }\n    .grunwald svg {\n      display: none; }\n    .grunwald .pulse {\n      display: none; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 25%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center; }\n  .popup h3 {\n    font-size: 1.5rem;\n    letter-spacing: 0.5rem;\n    text-transform: uppercase;\n    margin-bottom: 10px; }\n  .popup span {\n    font-size: 1.5rem; }\n  .popup.closed {\n    display: none; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile.closed {\n      display: none; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n#next {\n  background: url(" + __webpack_require__(119) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n#nextMobile {\n  background: url(" + __webpack_require__(120) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n#app {\n  overflow: hidden; }\n\n.hotspot {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0; }\n  .hotspot .info {\n    position: absolute;\n    top: -20%;\n    left: 120%;\n    background-color: white;\n    padding: 20px; }\n\n.whoButton {\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  font-size: 1.5rem;\n  padding: 10px;\n  position: absolute;\n  left: 7%;\n  z-index: 2; }\n\n.quizButton {\n  color: white;\n  font-size: 1.5rem;\n  /* padding: 10px; */\n  position: absolute;\n  right: 20%;\n  z-index: 2;\n  width: 70px;\n  text-align: center;\n  height: 70px;\n  top: 71px;\n  border-radius: 60px;\n  border: 1px;\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  text-align: center;\n  /* align-content: center; */\n  /* justify-content: center; */\n  line-height: 70px;\n  /* font-size: 3rem; */ }\n  .quizButton .label {\n    font-size: 2rem; }\n\n@media (max-width: 760px) {\n  .quizButton {\n    display: none; } }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n.pulse {\n  position: absolute;\n  height: 25px;\n  width: 25px;\n  left: 50%;\n  top: 45%;\n  opacity: 0;\n  border: 3px solid white;\n  border-radius: 40px;\n  animation: pulsate 3s ease-out;\n  animation-iteration-count: infinite; }\n\n.pulse-red {\n  position: absolute;\n  height: 80px;\n  width: 80px;\n  left: -10px;\n  top: -10px;\n  opacity: 1;\n  border: 5px solid rgba(140, 0, 26, 0.8);\n  border-radius: 80px;\n  animation: pulsate2 3s ease-out;\n  animation-iteration-count: infinite; }\n\n@keyframes pulsate {\n  0% {\n    transform: scale(0.1, 0.1);\n    opacity: 0.0; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 1.0; } }\n\n@keyframes pulsate2 {\n  0% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  33% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  66% {\n    transform: scale(1.5, 1.5);\n    opacity: 1; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 0.0; } }\n\n.quiz {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .4s;\n  right: 0;\n  font-size: 1.5rem;\n  color: white;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n  .quiz .container {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n    .quiz .container span {\n      font-size: 1.5rem;\n      color: white;\n      letter-spacing: 0.2rem;\n      line-height: 150%; }\n    .quiz .container h1 {\n      font-size: 2.2rem; }\n    .quiz .container h4 {\n      font-size: 1.5rem;\n      margin-top: 25px; }\n    .quiz .container input {\n      font-size: 1.2rem;\n      margin-top: 5px; }\n    .quiz .container button {\n      font-size: 1.2rem;\n      padding: 10px;\n      background-color: white;\n      border: none;\n      color: #800020;\n      text-transform: uppercase; }\n    .quiz .container .answers {\n      margin-top: 20px; }\n    .quiz .container .quizResult {\n      margin-top: 20px;\n      font-size: 1.5rem; }\n      .quiz .container .quizResult h3 {\n        font-size: 2rem;\n        margin-top: 20px; }\n      .quiz .container .quizResult div {\n        font-size: 1.5rem; }\n\n@media (max-width: 760px) {\n  .quiz {\n    display: none; } }\n\n.close-btn {\n  background-image: url(" + __webpack_require__(116) + ");\n  background-size: cover;\n  width: 32px;\n  height: 32px;\n  filter: brightness(0) invert(1); }\n\n.mute-btn {\n  background-color: rgba(140, 0, 26, 0.8);\n  background-image: url(" + __webpack_require__(118) + ");\n  background-position-x: center;\n  background-position-y: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  font-size: 1.5rem;\n  padding: 10px;\n  position: absolute;\n  left: 16%;\n  top: 1%;\n  z-index: 2; }\n  .mute-btn.muted {\n    background-image: url(" + __webpack_require__(117) + "); }\n\n@media (max-width: 760px) {\n  .mute-btn {\n    left: 24%; } }\n\n.pull-right {\n  position: absolute;\n  top: 0;\n  right: 0; }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n", ""]);
 
 // exports
 
@@ -12066,41 +12118,40 @@ module.exports = performanceNow;
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "8cfc2ef8f20a022f3069be26f86b7663.jpg";
+module.exports = __webpack_require__.p + "ea8231e5826e8fc848754bafa6caa6f1.jpg";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "014edaf458d622b6d7306fbd00718ded.png";
+module.exports = __webpack_require__.p + "6e4b7e8cad299008d30759c8081220e8.png";
 
 /***/ }),
-/* 117 */,
+/* 117 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "b659bf75e001d789a3f7db65b0696143.png";
+
+/***/ }),
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "e4374e126e1d8896e9bd505ea7add25c.png";
+module.exports = __webpack_require__.p + "d52ef17d8126f746131d7edebf426cab.png";
 
 /***/ }),
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "918534f35b107a58f2d14d21aff121d8.png";
+module.exports = __webpack_require__.p + "1371d3931472c43b39ad0edeaa4ff59d.png";
 
 /***/ }),
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "828fc0d2c5219158ab0959418c3d2b35.png";
+module.exports = __webpack_require__.p + "c30b507ce5ee0f10f1a4f55ca63adc76.png";
 
 /***/ }),
 /* 121 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ba0f7ac38f615088f6a40edce68a3ea3.png";
-
-/***/ }),
-/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12169,7 +12220,7 @@ module.exports = checkPropTypes;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12189,7 +12240,7 @@ var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
 
 var ReactPropTypesSecret = __webpack_require__(57);
-var checkPropTypes = __webpack_require__(122);
+var checkPropTypes = __webpack_require__(121);
 
 module.exports = function(isValidElement, throwOnDirectAccess) {
   /* global Symbol */
@@ -12689,7 +12740,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12768,7 +12819,7 @@ var ARIADOMPropertyConfig = {
 module.exports = ARIADOMPropertyConfig;
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12797,7 +12848,7 @@ var AutoFocusUtils = {
 module.exports = AutoFocusUtils;
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12815,9 +12866,9 @@ module.exports = AutoFocusUtils;
 
 var EventPropagators = __webpack_require__(24);
 var ExecutionEnvironment = __webpack_require__(6);
-var FallbackCompositionState = __webpack_require__(132);
-var SyntheticCompositionEvent = __webpack_require__(175);
-var SyntheticInputEvent = __webpack_require__(178);
+var FallbackCompositionState = __webpack_require__(131);
+var SyntheticCompositionEvent = __webpack_require__(174);
+var SyntheticInputEvent = __webpack_require__(177);
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -13187,7 +13238,7 @@ var BeforeInputEventPlugin = {
 module.exports = BeforeInputEventPlugin;
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13208,7 +13259,7 @@ var ExecutionEnvironment = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(10);
 
 var camelizeStyleName = __webpack_require__(102);
-var dangerousStyleValue = __webpack_require__(185);
+var dangerousStyleValue = __webpack_require__(184);
 var hyphenateStyleName = __webpack_require__(109);
 var memoizeStringOnly = __webpack_require__(112);
 var warning = __webpack_require__(2);
@@ -13402,7 +13453,7 @@ module.exports = CSSPropertyOperations;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13753,7 +13804,7 @@ var ChangeEventPlugin = {
 module.exports = ChangeEventPlugin;
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13807,7 +13858,7 @@ module.exports = Danger;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13838,7 +13889,7 @@ var DefaultEventPluginOrder = ['ResponderEventPlugin', 'SimpleEventPlugin', 'Tap
 module.exports = DefaultEventPluginOrder;
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13943,7 +13994,7 @@ var EnterLeaveEventPlugin = {
 module.exports = EnterLeaveEventPlugin;
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14043,7 +14094,7 @@ PooledClass.addPoolingTo(FallbackCompositionState);
 module.exports = FallbackCompositionState;
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14284,7 +14335,7 @@ var HTMLDOMPropertyConfig = {
 module.exports = HTMLDOMPropertyConfig;
 
 /***/ }),
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14444,7 +14495,7 @@ module.exports = ReactChildReconciler;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 135 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14461,7 +14512,7 @@ module.exports = ReactChildReconciler;
 
 
 var DOMChildrenOperations = __webpack_require__(35);
-var ReactDOMIDOperations = __webpack_require__(142);
+var ReactDOMIDOperations = __webpack_require__(141);
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -14479,7 +14530,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 /***/ }),
-/* 136 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14508,7 +14559,7 @@ var ReactNodeTypes = __webpack_require__(68);
 var ReactReconciler = __webpack_require__(20);
 
 if (process.env.NODE_ENV !== 'production') {
-  var checkReactTypeSpec = __webpack_require__(184);
+  var checkReactTypeSpec = __webpack_require__(183);
 }
 
 var emptyObject = __webpack_require__(22);
@@ -15387,7 +15438,7 @@ module.exports = ReactCompositeComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 137 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15406,15 +15457,15 @@ module.exports = ReactCompositeComponent;
 
 
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDefaultInjection = __webpack_require__(154);
+var ReactDefaultInjection = __webpack_require__(153);
 var ReactMount = __webpack_require__(67);
 var ReactReconciler = __webpack_require__(20);
 var ReactUpdates = __webpack_require__(12);
-var ReactVersion = __webpack_require__(169);
+var ReactVersion = __webpack_require__(168);
 
-var findDOMNode = __webpack_require__(186);
+var findDOMNode = __webpack_require__(185);
 var getHostComponentFromComposite = __webpack_require__(73);
-var renderSubtreeIntoContainer = __webpack_require__(193);
+var renderSubtreeIntoContainer = __webpack_require__(192);
 var warning = __webpack_require__(2);
 
 ReactDefaultInjection.inject();
@@ -15491,9 +15542,9 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(10);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(151);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(145);
-  var ReactDOMInvalidARIAHook = __webpack_require__(144);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(150);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(144);
+  var ReactDOMInvalidARIAHook = __webpack_require__(143);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -15504,7 +15555,7 @@ module.exports = ReactDOM;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15525,8 +15576,8 @@ module.exports = ReactDOM;
 var _prodInvariant = __webpack_require__(3),
     _assign = __webpack_require__(4);
 
-var AutoFocusUtils = __webpack_require__(125);
-var CSSPropertyOperations = __webpack_require__(127);
+var AutoFocusUtils = __webpack_require__(124);
+var CSSPropertyOperations = __webpack_require__(126);
 var DOMLazyTree = __webpack_require__(19);
 var DOMNamespaces = __webpack_require__(36);
 var DOMProperty = __webpack_require__(15);
@@ -15536,13 +15587,13 @@ var EventPluginRegistry = __webpack_require__(27);
 var ReactBrowserEventEmitter = __webpack_require__(28);
 var ReactDOMComponentFlags = __webpack_require__(61);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMInput = __webpack_require__(143);
-var ReactDOMOption = __webpack_require__(146);
+var ReactDOMInput = __webpack_require__(142);
+var ReactDOMOption = __webpack_require__(145);
 var ReactDOMSelect = __webpack_require__(62);
-var ReactDOMTextarea = __webpack_require__(149);
+var ReactDOMTextarea = __webpack_require__(148);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactMultiChild = __webpack_require__(162);
-var ReactServerRenderingTransaction = __webpack_require__(167);
+var ReactMultiChild = __webpack_require__(161);
+var ReactServerRenderingTransaction = __webpack_require__(166);
 
 var emptyFunction = __webpack_require__(11);
 var escapeTextContentForBrowser = __webpack_require__(31);
@@ -16511,7 +16562,7 @@ module.exports = ReactDOMComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16550,7 +16601,7 @@ module.exports = ReactDOMContainerInfo;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16615,7 +16666,7 @@ _assign(ReactDOMEmptyComponent.prototype, {
 module.exports = ReactDOMEmptyComponent;
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16639,7 +16690,7 @@ var ReactDOMFeatureFlags = {
 module.exports = ReactDOMFeatureFlags;
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16678,7 +16729,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16969,7 +17020,7 @@ module.exports = ReactDOMInput;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17068,7 +17119,7 @@ module.exports = ReactDOMInvalidARIAHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17117,7 +17168,7 @@ module.exports = ReactDOMNullInputValuePropHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17246,7 +17297,7 @@ module.exports = ReactDOMOption;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17264,7 +17315,7 @@ module.exports = ReactDOMOption;
 
 var ExecutionEnvironment = __webpack_require__(6);
 
-var getNodeForCharacterOffset = __webpack_require__(190);
+var getNodeForCharacterOffset = __webpack_require__(189);
 var getTextContentAccessor = __webpack_require__(74);
 
 /**
@@ -17463,7 +17514,7 @@ var ReactDOMSelection = {
 module.exports = ReactDOMSelection;
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17633,7 +17684,7 @@ module.exports = ReactDOMTextComponent;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17799,7 +17850,7 @@ module.exports = ReactDOMTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17941,7 +17992,7 @@ module.exports = {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18059,7 +18110,7 @@ module.exports = ReactDOMUnknownPropertyHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18076,8 +18127,8 @@ module.exports = ReactDOMUnknownPropertyHook;
 
 
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(160);
-var ReactHostOperationHistoryHook = __webpack_require__(158);
+var ReactInvalidSetStateWarningHook = __webpack_require__(159);
+var ReactHostOperationHistoryHook = __webpack_require__(157);
 var ReactComponentTreeHook = __webpack_require__(9);
 var ExecutionEnvironment = __webpack_require__(6);
 
@@ -18424,7 +18475,7 @@ module.exports = ReactDebugTool;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18497,7 +18548,7 @@ var ReactDefaultBatchingStrategy = {
 module.exports = ReactDefaultBatchingStrategy;
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18513,25 +18564,25 @@ module.exports = ReactDefaultBatchingStrategy;
 
 
 
-var ARIADOMPropertyConfig = __webpack_require__(124);
-var BeforeInputEventPlugin = __webpack_require__(126);
-var ChangeEventPlugin = __webpack_require__(128);
-var DefaultEventPluginOrder = __webpack_require__(130);
-var EnterLeaveEventPlugin = __webpack_require__(131);
-var HTMLDOMPropertyConfig = __webpack_require__(133);
-var ReactComponentBrowserEnvironment = __webpack_require__(135);
-var ReactDOMComponent = __webpack_require__(138);
+var ARIADOMPropertyConfig = __webpack_require__(123);
+var BeforeInputEventPlugin = __webpack_require__(125);
+var ChangeEventPlugin = __webpack_require__(127);
+var DefaultEventPluginOrder = __webpack_require__(129);
+var EnterLeaveEventPlugin = __webpack_require__(130);
+var HTMLDOMPropertyConfig = __webpack_require__(132);
+var ReactComponentBrowserEnvironment = __webpack_require__(134);
+var ReactDOMComponent = __webpack_require__(137);
 var ReactDOMComponentTree = __webpack_require__(5);
-var ReactDOMEmptyComponent = __webpack_require__(140);
-var ReactDOMTreeTraversal = __webpack_require__(150);
-var ReactDOMTextComponent = __webpack_require__(148);
-var ReactDefaultBatchingStrategy = __webpack_require__(153);
-var ReactEventListener = __webpack_require__(157);
-var ReactInjection = __webpack_require__(159);
-var ReactReconcileTransaction = __webpack_require__(165);
-var SVGDOMPropertyConfig = __webpack_require__(170);
-var SelectEventPlugin = __webpack_require__(171);
-var SimpleEventPlugin = __webpack_require__(172);
+var ReactDOMEmptyComponent = __webpack_require__(139);
+var ReactDOMTreeTraversal = __webpack_require__(149);
+var ReactDOMTextComponent = __webpack_require__(147);
+var ReactDefaultBatchingStrategy = __webpack_require__(152);
+var ReactEventListener = __webpack_require__(156);
+var ReactInjection = __webpack_require__(158);
+var ReactReconcileTransaction = __webpack_require__(164);
+var SVGDOMPropertyConfig = __webpack_require__(169);
+var SelectEventPlugin = __webpack_require__(170);
+var SimpleEventPlugin = __webpack_require__(171);
 
 var alreadyInjected = false;
 
@@ -18588,7 +18639,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18613,7 +18664,7 @@ var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol['for'] && Symbol
 module.exports = REACT_ELEMENT_TYPE;
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18651,7 +18702,7 @@ var ReactEventEmitterMixin = {
 module.exports = ReactEventEmitterMixin;
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18811,7 +18862,7 @@ var ReactEventListener = {
 module.exports = ReactEventListener;
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18850,7 +18901,7 @@ var ReactHostOperationHistoryHook = {
 module.exports = ReactHostOperationHistoryHook;
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18889,7 +18940,7 @@ var ReactInjection = {
 module.exports = ReactInjection;
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18932,7 +18983,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18948,7 +18999,7 @@ module.exports = ReactInvalidSetStateWarningHook;
 
 
 
-var adler32 = __webpack_require__(183);
+var adler32 = __webpack_require__(182);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -18987,7 +19038,7 @@ var ReactMarkupChecksum = {
 module.exports = ReactMarkupChecksum;
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19011,10 +19062,10 @@ var ReactInstrumentation = __webpack_require__(10);
 
 var ReactCurrentOwner = __webpack_require__(13);
 var ReactReconciler = __webpack_require__(20);
-var ReactChildReconciler = __webpack_require__(134);
+var ReactChildReconciler = __webpack_require__(133);
 
 var emptyFunction = __webpack_require__(11);
-var flattenChildren = __webpack_require__(187);
+var flattenChildren = __webpack_require__(186);
 var invariant = __webpack_require__(1);
 
 /**
@@ -19443,7 +19494,7 @@ module.exports = ReactMultiChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19543,7 +19594,7 @@ module.exports = ReactOwner;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19574,7 +19625,7 @@ module.exports = ReactPropTypeLocationNames;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19758,7 +19809,7 @@ module.exports = ReactReconcileTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19775,7 +19826,7 @@ module.exports = ReactReconcileTransaction;
 
 
 
-var ReactOwner = __webpack_require__(163);
+var ReactOwner = __webpack_require__(162);
 
 var ReactRef = {};
 
@@ -19852,7 +19903,7 @@ ReactRef.detachRefs = function (instance, element) {
 module.exports = ReactRef;
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19873,7 +19924,7 @@ var _assign = __webpack_require__(4);
 var PooledClass = __webpack_require__(16);
 var Transaction = __webpack_require__(30);
 var ReactInstrumentation = __webpack_require__(10);
-var ReactServerUpdateQueue = __webpack_require__(168);
+var ReactServerUpdateQueue = __webpack_require__(167);
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -19948,7 +19999,7 @@ module.exports = ReactServerRenderingTransaction;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20093,7 +20144,7 @@ module.exports = ReactServerUpdateQueue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20112,7 +20163,7 @@ module.exports = ReactServerUpdateQueue;
 module.exports = '15.5.4';
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20419,7 +20470,7 @@ Object.keys(ATTRS).forEach(function (key) {
 module.exports = SVGDOMPropertyConfig;
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20615,7 +20666,7 @@ var SelectEventPlugin = {
 module.exports = SelectEventPlugin;
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20637,17 +20688,17 @@ var _prodInvariant = __webpack_require__(3);
 var EventListener = __webpack_require__(53);
 var EventPropagators = __webpack_require__(24);
 var ReactDOMComponentTree = __webpack_require__(5);
-var SyntheticAnimationEvent = __webpack_require__(173);
-var SyntheticClipboardEvent = __webpack_require__(174);
+var SyntheticAnimationEvent = __webpack_require__(172);
+var SyntheticClipboardEvent = __webpack_require__(173);
 var SyntheticEvent = __webpack_require__(14);
-var SyntheticFocusEvent = __webpack_require__(177);
-var SyntheticKeyboardEvent = __webpack_require__(179);
+var SyntheticFocusEvent = __webpack_require__(176);
+var SyntheticKeyboardEvent = __webpack_require__(178);
 var SyntheticMouseEvent = __webpack_require__(29);
-var SyntheticDragEvent = __webpack_require__(176);
-var SyntheticTouchEvent = __webpack_require__(180);
-var SyntheticTransitionEvent = __webpack_require__(181);
+var SyntheticDragEvent = __webpack_require__(175);
+var SyntheticTouchEvent = __webpack_require__(179);
+var SyntheticTransitionEvent = __webpack_require__(180);
 var SyntheticUIEvent = __webpack_require__(26);
-var SyntheticWheelEvent = __webpack_require__(182);
+var SyntheticWheelEvent = __webpack_require__(181);
 
 var emptyFunction = __webpack_require__(11);
 var getEventCharCode = __webpack_require__(44);
@@ -20849,7 +20900,7 @@ module.exports = SimpleEventPlugin;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 173 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20893,7 +20944,7 @@ SyntheticEvent.augmentClass(SyntheticAnimationEvent, AnimationEventInterface);
 module.exports = SyntheticAnimationEvent;
 
 /***/ }),
-/* 174 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20936,7 +20987,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 /***/ }),
-/* 175 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20977,7 +21028,7 @@ SyntheticEvent.augmentClass(SyntheticCompositionEvent, CompositionEventInterface
 module.exports = SyntheticCompositionEvent;
 
 /***/ }),
-/* 176 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21018,7 +21069,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 module.exports = SyntheticDragEvent;
 
 /***/ }),
-/* 177 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21059,7 +21110,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 module.exports = SyntheticFocusEvent;
 
 /***/ }),
-/* 178 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21101,7 +21152,7 @@ SyntheticEvent.augmentClass(SyntheticInputEvent, InputEventInterface);
 module.exports = SyntheticInputEvent;
 
 /***/ }),
-/* 179 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21120,7 +21171,7 @@ module.exports = SyntheticInputEvent;
 var SyntheticUIEvent = __webpack_require__(26);
 
 var getEventCharCode = __webpack_require__(44);
-var getEventKey = __webpack_require__(188);
+var getEventKey = __webpack_require__(187);
 var getEventModifierState = __webpack_require__(45);
 
 /**
@@ -21190,7 +21241,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 module.exports = SyntheticKeyboardEvent;
 
 /***/ }),
-/* 180 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21240,7 +21291,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 module.exports = SyntheticTouchEvent;
 
 /***/ }),
-/* 181 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21284,7 +21335,7 @@ SyntheticEvent.augmentClass(SyntheticTransitionEvent, TransitionEventInterface);
 module.exports = SyntheticTransitionEvent;
 
 /***/ }),
-/* 182 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21343,7 +21394,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 module.exports = SyntheticWheelEvent;
 
 /***/ }),
-/* 183 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21392,7 +21443,7 @@ function adler32(data) {
 module.exports = adler32;
 
 /***/ }),
-/* 184 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21410,7 +21461,7 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(3);
 
-var ReactPropTypeLocationNames = __webpack_require__(164);
+var ReactPropTypeLocationNames = __webpack_require__(163);
 var ReactPropTypesSecret = __webpack_require__(69);
 
 var invariant = __webpack_require__(1);
@@ -21485,7 +21536,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 185 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21570,7 +21621,7 @@ module.exports = dangerousStyleValue;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 186 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21636,7 +21687,7 @@ module.exports = findDOMNode;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 187 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21718,7 +21769,7 @@ module.exports = flattenChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 188 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21825,7 +21876,7 @@ function getEventKey(nativeEvent) {
 module.exports = getEventKey;
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21871,7 +21922,7 @@ function getIteratorFn(maybeIterable) {
 module.exports = getIteratorFn;
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21950,7 +22001,7 @@ function getNodeForCharacterOffset(root, offset) {
 module.exports = getNodeForCharacterOffset;
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22056,7 +22107,7 @@ function getVendorPrefixedEventName(eventName) {
 module.exports = getVendorPrefixedEventName;
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22087,7 +22138,7 @@ function quoteAttributeValueForBrowser(value) {
 module.exports = quoteAttributeValueForBrowser;
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22108,7 +22159,7 @@ var ReactMount = __webpack_require__(67);
 module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ }),
-/* 194 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22172,7 +22223,7 @@ var KeyEscapeUtils = {
 module.exports = KeyEscapeUtils;
 
 /***/ }),
-/* 195 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22290,7 +22341,7 @@ module.exports = PooledClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 196 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22306,11 +22357,11 @@ module.exports = PooledClass;
 
 
 
-var PooledClass = __webpack_require__(195);
+var PooledClass = __webpack_require__(194);
 var ReactElement = __webpack_require__(17);
 
 var emptyFunction = __webpack_require__(11);
-var traverseAllChildren = __webpack_require__(206);
+var traverseAllChildren = __webpack_require__(205);
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -22486,7 +22537,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 /***/ }),
-/* 197 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23215,7 +23266,7 @@ module.exports = ReactClass;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 198 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23391,7 +23442,7 @@ module.exports = ReactDOMFactories;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23415,7 +23466,7 @@ var factory = __webpack_require__(56);
 module.exports = factory(isValidElement);
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23437,7 +23488,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
 
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23484,7 +23535,7 @@ ReactPureComponent.prototype.isPureReactComponent = true;
 module.exports = ReactPureComponent;
 
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23503,7 +23554,7 @@ module.exports = ReactPureComponent;
 module.exports = '15.5.4';
 
 /***/ }),
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23522,7 +23573,7 @@ module.exports = '15.5.4';
 var _prodInvariant = __webpack_require__(18);
 
 var ReactPropTypeLocationNames = __webpack_require__(81);
-var ReactPropTypesSecret = __webpack_require__(200);
+var ReactPropTypesSecret = __webpack_require__(199);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -23596,7 +23647,7 @@ module.exports = checkReactTypeSpec;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 204 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23622,7 +23673,7 @@ function getNextDebugID() {
 module.exports = getNextDebugID;
 
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23666,7 +23717,7 @@ module.exports = onlyChild;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23689,7 +23740,7 @@ var REACT_ELEMENT_TYPE = __webpack_require__(79);
 
 var getIteratorFn = __webpack_require__(82);
 var invariant = __webpack_require__(1);
-var KeyEscapeUtils = __webpack_require__(194);
+var KeyEscapeUtils = __webpack_require__(193);
 var warning = __webpack_require__(2);
 
 var SEPARATOR = '.';
@@ -23848,7 +23899,7 @@ module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -23885,7 +23936,7 @@ var stylesInDom = {},
 	singletonElement = null,
 	singletonCounter = 0,
 	styleElementsInsertedAtTop = [],
-	fixUrls = __webpack_require__(208);
+	fixUrls = __webpack_require__(207);
 
 module.exports = function(list, options) {
 	if(typeof DEBUG !== "undefined" && DEBUG) {
@@ -24161,7 +24212,7 @@ function updateLink(linkElement, options, obj) {
 
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports) {
 
 

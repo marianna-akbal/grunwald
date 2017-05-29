@@ -27,6 +27,11 @@ export default class Hotspot extends React.Component {
         window.removeEventListener('resize', this.updateDimensions)
     }
 
+    getBoundries() {
+       let thisComponent = ReactDOM.findDOMNode(this);
+       return thisComponent.getBoundingClientRect();
+    }
+
     handleMouseEnter() {
         this.setState({isActive: true});
         console.log(this.boundries)
