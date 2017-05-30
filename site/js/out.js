@@ -10267,7 +10267,7 @@ var Popup = function (_React$Component) {
             { id: 'bigger' },
             'Tu i Teraz'
           ),
-          ' poznaj i us\u0142ysz t\u0119 wielk\u0105 chwil\u0119 naszej historii. Klikaj w hotspoty aby odkry\u0107 kulisy bitwy pod Grunwaldem.'
+          ' poznaj i us\u0142ysz t\u0119 wielk\u0105 chwil\u0119 naszej historii. Klikaj w hotspoty aby odkry\u0107 kulisy bitwy pod Grunwaldem. '
         ),
         _react2.default.createElement('div', { id: 'next', onClick: function onClick(e) {
             return _this2.closePopup();
