@@ -76,7 +76,7 @@ export default class Grunwald extends React.Component {
     }
 
     makeRef() {
-        return 'HotSpot-'+(this._refi++); 
+        return 'HotSpot-'+(this._refi++);
     }
 
     refsToArray(ctx, prefix){
@@ -185,7 +185,7 @@ export default class Grunwald extends React.Component {
                         handleHide={this.hidePopup.bind(this)}
                         addPointer={this.addPointer.bind(this)}/>
 
-                    
+
 
 
                      <PolygonHotspot
@@ -344,7 +344,7 @@ export default class Grunwald extends React.Component {
 
 
                       <PolygonHotspot
-                      ref="HotSpot-22" 
+                      ref="HotSpot-22"
                       id="_x37"
                       points="-190,696 -246,583 -263,522 -197,525 -118,529 -91,576 -81,705 	"
                       title="Kuno von Lichtenstein" description="Dostojnik zakonu, który od 1406r piastował godność wielkiego komtura (zastępcy wielkiego mistrza). W bitwie pod Grunwaldem von Lichtenstein dowodził prawym skrzydłem armii zakonnej, zginął prawdopodobnie walcząc w chorągwi wielkiej komturii. Według Jana Długosza uchodził za jednego z najlepszych szermierzy ówczesnej Europy. Matejko uwiecznił go w chwili śmierci."
@@ -362,14 +362,18 @@ export default class Grunwald extends React.Component {
                       addPointer={this.addPointer.bind(this)}/>
 
 
-                      <PolygonHotspot
+                      <PathHotspot
                       ref="HotSpot-24"
-                      id="_x32_5"
-                      points="-1582,-161 -1442,-209 -1368,-265 -1263,-293 -1412,-326 -1615,-297 -1631,-151 	"
-                      title="bój o obóz krzyżacki pod wsią Stębark" description=""
+                      id="_x32_5" points="M-1452.3-133.3c0,0-25.3,42.7-26.3,43.3s-26.7-11.3-26.7-11.3l-30.7-7l-63.7,4l-19-31.3l-15.7-52
+                  		c0,0-37.3-42.7-37.3-43.7s1.3-34.3,1.3-34.3l76.3-30.7l61,27.7l51.7-50.3l88.7-20.7l98.3-12.7l63.7,43l-22.3,50l-15.7,18.3
+                  		l-4.7,23.3l-59,6l-52.3-13.7l-26.7,21.3l1.7,37l-2,38l-23,10.3l-16.5-14.3L-1452.3-133.3z"
+                      title="bój o obóz krzyżacki pod wsią Stębark"
+                      description=""
                       handleShow={this.showPopup.bind(this)}
                       handleHide={this.hidePopup.bind(this)}
                       addPointer={this.addPointer.bind(this)}/>
+
+
                 </svg>
                 {points}
                 <HotspotPopup
