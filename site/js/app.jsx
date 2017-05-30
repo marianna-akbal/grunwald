@@ -58,7 +58,7 @@ class App extends React.Component {
     render(){
         return <div>
           <Sound mute={this.state.isMuted} />
-          <About isVisible = {this.state.isWhoVisible}  />
+          <About isVisible = {this.state.isWhoVisible} close={this.showWhoPopup.bind(this)}  />
           <div className="buttons-container">
           <WhoButton click={e => this.showWhoPopup()} />
           <MuteButton isMuted = {this.state.isMuted} mute={this.mute.bind(this)} />
