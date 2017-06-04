@@ -9896,7 +9896,7 @@ var Grunwald = function (_React$Component) {
                             ref: 'HotSpot-1',
                             id: 'jagiello',
                             points: 'M84.1,158.6c0,4.5-19.5,72-19.5,72l19.5,51l6,142.5l21,40.5l51-52.5v-94.5l61.5-115.5l37.5-30 l39-72.1l27-89.9l36-33l60-43.5l7.5-90l-21-121.5l-31.5-52.5l-57,49.5l-25.5,132l-21-15l-10.5-58.5l-67.5-30l-25.5,94.5l-22.5,28.5 l-108-70.5l-3-36l76.5-202.5l-18-30l-129,273L106.6-55.9l42,55.9l-16.5,73.1L84.1,158.6z',
-                            title: 'Wielki ksi\u0105\u017Ce Litwy Witold', description: 'Matejko, za Dlugoszem, wskazuje 60-letniego ksi\u0119cia Witolda jako kluczow\u0105 posta\u0107 bitwy. Witold mia\u0142 w trakcie bitwy zruga\u0107 swgo kuzyna - W\u0142adys\u0142awa Jagie\u0142\u0142\u0119 za to, \u017Ce w oddaleniu s\u0142ucha mszy \u015Bwi\u0119tej.\r Zwyci\u0119stwo w bitwie by\u0142o niema\u0142 wy\u0142\u0105czn\u0105 zas\u0142ug\u0105 Witolda i jego wojsk.\r Na obrazie za ksi\u0119ciem chyli sie ku upadkowi chor\u0105giew wielkiego mistrza krzy\u017Cackigo.',
+                            title: 'Wielki ksi\u0105\u017Ce Litwy Witold', description: 'Matejko, za Dlugoszem, wskazuje 60-letniego ksi\u0119cia Witolda jako kluczow\u0105 posta\u0107 bitwy. Witold mia\u0142 w trakcie bitwy zruga\u0107 swgo kuzyna - W\u0142adys\u0142awa Jagie\u0142\u0142\u0119 za to, \u017Ce w oddaleniu s\u0142ucha mszy \u015Bwi\u0119tej. Zwyci\u0119stwo w bitwie by\u0142o niema\u0142 wy\u0142\u0105czn\u0105 zas\u0142ug\u0105 Witolda i jego wojsk. Na obrazie za ksi\u0119ciem chyli sie ku upadkowi chor\u0105giew wielkiego mistrza krzy\u017Cackigo.',
                             handleShow: this.showPopup.bind(this),
                             handleHide: this.hidePopup.bind(this),
                             addPointer: this.addPointer.bind(this) }),
@@ -9927,7 +9927,7 @@ var Grunwald = function (_React$Component) {
                         _react2.default.createElement(_polygonhotspot2.default, {
                             ref: 'HotSpot-5',
                             id: '_x31_',
-                            points: '-1388.3,95.7 -1346.3,71.3 -1300.7,35 -1269.7,-17 -1298.7,-93 -1332.3,-149.3\r -1333.7,-176.7 -1370,-216.3 -1389,-201 -1406,-161.7 -1417,-116.3 -1468.7,-40.3 -1478,15 \t',
+                            points: '-1388.3,95.7 -1346.3,71.3 -1300.7,35 -1269.7,-17 -1298.7,-93 -1332.3,-149.3 -1333.7,-176.7 -1370,-216.3 -1389,-201 -1406,-161.7 -1417,-116.3 -1468.7,-40.3 -1478,15 \t',
                             title: 'Jakub Skarbek z G\xF3ry',
                             description: 'Wywodzi\u0142 si\u0119 ze starego polskiego rodu szlacheckiego Skarbk\xF3w. Pocz\u0105tkowo by\u0142 w s\u0142u\u017Cbie kr\xF3la Zygmunta Luksemburskiego, a od 1410 r. u kr\xF3la W\u0142adys\u0142awa II Jagie\u0142\u0142y. Zgodnie z relacjami historycznymi Skarbek na czele w\u0142asnej chor\u0105gwi wzi\u0105\u0142 udzia\u0142 w bitwie pod Grunwaldem gdzie by\u0142 jednym z dziewi\u0119ciu przedchor\u0105giewnych, strzeg\u0105cych wielkiej chor\u0105gwi Kr\xF3lestwa Polskiego. Odznaczy\u0142 si\u0119 w walce m\u0119stwem atakuj\u0105c ksi\u0119cia szczeci\u0144skiego Kazimierza V i bior\u0105c go do niewoli.',
                             handleShow: this.showPopup.bind(this),
@@ -9935,7 +9935,7 @@ var Grunwald = function (_React$Component) {
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
                             ref: 'HotSpot-6',
-                            id: 'anonimowy-2', points: 'M-1436.5,241.5l-56,71l-41.5,27l-28.5-7.5c0,0-23.5,25-23.5,26.5s33.5,41,33.5,41l96-56\r l62.5-46l46,18l64.5-71.5l118-61l44.5-46l32-13.5l-16-39l-38-6.5l-47,60.5l-55.5,31l-46.5-8.5l-4.5-35.5l-26-32.5l-62.5,7l-22.5,47 l2,38.5L-1436.5,241.5z',
+                            id: 'anonimowy-2', points: 'M-1436.5,241.5l-56,71l-41.5,27l-28.5-7.5c0,0-23.5,25-23.5,26.5s33.5,41,33.5,41l96-56 l62.5-46l46,18l64.5-71.5l118-61l44.5-46l32-13.5l-16-39l-38-6.5l-47,60.5l-55.5,31l-46.5-8.5l-4.5-35.5l-26-32.5l-62.5,7l-22.5,47 l2,38.5L-1436.5,241.5z',
                             title: 'Anonimowy uczestnik bitwy',
                             description: 'Jeden z wielu anonimowych postaci uwiecznionych na obrazie. Prawdopodobnie giermek.',
                             handleShow: this.showPopup.bind(this),
@@ -9950,7 +9950,7 @@ var Grunwald = function (_React$Component) {
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
                             ref: 'HotSpot-7',
-                            id: '_x35_', points: 'M-1210.7,126l53.3-37l28-48.7l38.3-51.7l1.7-60l-15-31l-58-66.7l21.3-30c0,0-28.7-3.3-29.7-3.7\r c-1-0.3-27.7-18.3-27.7-18.3l-27.3-30.7l-45.7,22.3l6.3,26.3l-46.7,38.3l7.7,41.7l30,54l37,49.7l2.7,105.7L-1210.7,126z',
+                            id: '_x35_', points: 'M-1210.7,126l53.3-37l28-48.7l38.3-51.7l1.7-60l-15-31l-58-66.7l21.3-30c0,0-28.7-3.3-29.7-3.7 c-1-0.3-27.7-18.3-27.7-18.3l-27.3-30.7l-45.7,22.3l6.3,26.3l-46.7,38.3l7.7,41.7l30,54l37,49.7l2.7,105.7L-1210.7,126z',
                             title: 'Kazimierz V',
                             description: 'Ksi\u0105\u017Ce szczeci\u0144ski z dynastii Gryfit\xF3w, kt\xF3ry stan\u0105\u0142 po stronie Krzy\u017Cak\xF3w.Obr\xF3cony jest do widza plecami i zadaje cios mieczem z p\xF3\u0142obrotu. Jego posta\u0107 pokazuje, \u017Ce w\u015Br\xF3d sojusznik\xF3w von JUnginegena by\u0142o wiele oddzia\u0142\xF3w gdzie dominowa\u0142 j\u0119zyk polski.30 letni Kazimierz V w bitwie trafi\u0142 do niewoli.Zosta\u0142 z niej zwolniony 8 czerwca 1411, za por\u0119czeniem Bogus\u0142awa VIII, ksi\u0119cia stargardzkiego i s\u0142upskiego i cen\u0119 p\xF3\u017Aniejszej wsp\xF3\u0142pracy ksi\u0105\u017C\u0105t szczeci\u0144skich z Koron\u0105',
                             handleShow: this.showPopup.bind(this),
@@ -10015,7 +10015,7 @@ var Grunwald = function (_React$Component) {
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
                             ref: 'HotSpot-15',
-                            id: '_x31_8', points: 'M830.5,760c2.5,1,76,31.5,76,31.5l129-37.5c0,0,72-17,70.5-19.5s-48-137-48-137s77.5-44,73.5-48\r s-33.5-107-33.5-107l125.5-68l-131.5,16l-73-43L967.5,393l-30-48l48-43L892,364.5l27.5,80.5L905,587.5L828.5,715L809,741.5 L830.5,760z',
+                            id: '_x31_8', points: 'M830.5,760c2.5,1,76,31.5,76,31.5l129-37.5c0,0,72-17,70.5-19.5s-48-137-48-137s77.5-44,73.5-48 s-33.5-107-33.5-107l125.5-68l-131.5,16l-73-43L967.5,393l-30-48l48-43L892,364.5l27.5,80.5L905,587.5L828.5,715L809,741.5 L830.5,760z',
                             title: 'Henrich von Schwelborn',
                             description: 'Komandor tucholski, kt\xF3ry za chwil\u0119 ma ptrzyma\u0107 cios mieczem od Jana \u017Bi\u017Bki. Wed\u0142ug relacji D\u0142ugosza Henryk uciek\u0142 z pola bitwy grunwaldzkiej, a we wsi Wielgnowa opad\u0142 go po\u015Bcig i zosta\u0142 zabity przez obci\u0119cie g\u0142owy.',
                             handleShow: this.showPopup.bind(this),
@@ -10039,7 +10039,7 @@ var Grunwald = function (_React$Component) {
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
                             ref: 'HotSpot-18',
-                            id: '_x32_1', points: 'M1342,285.5l80,66.5c0,0,76,51.5,78,51s98.5-12,98.5-12s74.5-29,74-30.5s-66.5-80-68.5-80\r s-76.5-41-76.5-41s-8-43.5-8.5-45s-31.5-24.5-31.5-24.5l-31,15l-21,37.5l-104,32.5L1342,285.5z',
+                            id: '_x32_1', points: 'M1342,285.5l80,66.5c0,0,76,51.5,78,51s98.5-12,98.5-12s74.5-29,74-30.5s-66.5-80-68.5-80 s-76.5-41-76.5-41s-8-43.5-8.5-45s-31.5-24.5-31.5-24.5l-31,15l-21,37.5l-104,32.5L1342,285.5z',
                             title: 'Marquard von Salzbach',
                             description: 'Komtur branderburski. Zgin\u0105\u0142 po bitwie pod Grunwaldem. Wed\u0142ug Jana D\u0142ugosza rycerza pojma\u0142 jego ojciec Jan D\u0142ugosz z Niedzielska. Zaraz po bitwie Marquard zosta\u0142 stracony na rozkaz wielkiego ksi\u0119cia Witolda. ',
                             handleShow: this.showPopup.bind(this),
@@ -10087,7 +10087,7 @@ var Grunwald = function (_React$Component) {
                             addPointer: this.addPointer.bind(this) }),
                         _react2.default.createElement(_pathhotspot2.default, {
                             ref: 'HotSpot-24',
-                            id: '_x32_5', points: 'M-1452.3-133.3c0,0-25.3,42.7-26.3,43.3s-26.7-11.3-26.7-11.3l-30.7-7l-63.7,4l-19-31.3l-15.7-52\r c0,0-37.3-42.7-37.3-43.7s1.3-34.3,1.3-34.3l76.3-30.7l61,27.7l51.7-50.3l88.7-20.7l98.3-12.7l63.7,43l-22.3,50l-15.7,18.3\r l-4.7,23.3l-59,6l-52.3-13.7l-26.7,21.3l1.7,37l-2,38l-23,10.3l-16.5-14.3L-1452.3-133.3z',
+                            id: '_x32_5', points: 'M-1452.3-133.3c0,0-25.3,42.7-26.3,43.3s-26.7-11.3-26.7-11.3l-30.7-7l-63.7,4l-19-31.3l-15.7-52 c0,0-37.3-42.7-37.3-43.7s1.3-34.3,1.3-34.3l76.3-30.7l61,27.7l51.7-50.3l88.7-20.7l98.3-12.7l63.7,43l-22.3,50l-15.7,18.3 l-4.7,23.3l-59,6l-52.3-13.7l-26.7,21.3l1.7,37l-2,38l-23,10.3l-16.5-14.3L-1452.3-133.3z',
                             title: 'b\xF3j o ob\xF3z krzy\u017Cacki pod wsi\u0105 St\u0119bark',
                             description: '',
                             handleShow: this.showPopup.bind(this),
@@ -10349,6 +10349,7 @@ var PopupMobile = function (_React$Component) {
     key: 'closePopup',
     value: function closePopup() {
       this.setState({ isClosed: true });
+      this.props.close();
     }
   }, {
     key: 'render',
@@ -10960,6 +10961,8 @@ var App = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 null,
+                _react2.default.createElement(_popup2.default, { close: this.closeAbout.bind(this) }),
+                _react2.default.createElement(_popupmobile2.default, { close: this.showQuiz.bind(this) }),
                 _react2.default.createElement(_sound2.default, { mute: this.state.isMuted }),
                 _react2.default.createElement(_about2.default, { isVisible: this.state.isWhoVisible, close: this.showWhoPopup.bind(this) }),
                 _react2.default.createElement(
@@ -10974,9 +10977,7 @@ var App = function (_React$Component) {
                 _react2.default.createElement(_quizButton2.default, { isVisible: !this.state.isQuizVisible, click: function click(e) {
                         return _this2.showQuiz();
                     } }),
-                _react2.default.createElement(_grunwald2.default, { isEnable: this.state.isEnable }),
-                _react2.default.createElement(_popup2.default, { close: this.closeAbout.bind(this) }),
-                _react2.default.createElement(_popupmobile2.default, null)
+                _react2.default.createElement(_grunwald2.default, { isEnable: this.state.isEnable })
             );
         }
     }]);
@@ -11215,7 +11216,7 @@ exports.default = PolygonHotspot;
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -11237,22 +11238,22 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var PulseCircle = function (_React$Component) {
-    _inherits(PulseCircle, _React$Component);
+  _inherits(PulseCircle, _React$Component);
 
-    function PulseCircle(props) {
-        _classCallCheck(this, PulseCircle);
+  function PulseCircle(props) {
+    _classCallCheck(this, PulseCircle);
 
-        return _possibleConstructorReturn(this, (PulseCircle.__proto__ || Object.getPrototypeOf(PulseCircle)).call(this, props));
+    return _possibleConstructorReturn(this, (PulseCircle.__proto__ || Object.getPrototypeOf(PulseCircle)).call(this, props));
+  }
+
+  _createClass(PulseCircle, [{
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement('div', { clasName: 'pulse' });
     }
+  }]);
 
-    _createClass(PulseCircle, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement('div', { clasName: 'pulse' });
-        }
-    }]);
-
-    return PulseCircle;
+  return PulseCircle;
 }(_react2.default.Component);
 
 exports.default = PulseCircle;
@@ -11279,7 +11280,7 @@ var Question = React.createClass({
     var answersNodes = Object.keys(this.props.data.answers).map(function (value, index) {
       return React.createElement(
         "div",
-        { className: "answers" },
+        { key: "div-answer-input-" + index + "-" + this.props.id, className: "answers" },
         React.createElement("input", { key: "answer-input-" + index + "-" + this.props.id,
           id: "answer-input-" + index + "-" + this.props.id,
           type: "checkbox",
@@ -11329,7 +11330,7 @@ exports = module.exports = __webpack_require__(100)(undefined);
 
 
 // module
-exports.push([module.i, ".grunwald {\n  width: 100vw;\n  height: 100vh;\n  position: relative;\n  background-color: #800020;\n  display: flex;\n  align-items: center; }\n  .grunwald .container {\n    position: relative; }\n    .grunwald .container img {\n      height: auto;\n      width: 100vw;\n      transition: 0.3s all;\n      filter: blur(1.5px); }\n    .grunwald .container svg {\n      height: auto;\n      width: 100vw;\n      position: absolute;\n      top: 0;\n      left: 0; }\n    .grunwald .container .popup {\n      position: absolute;\n      width: auto;\n      max-height: 65%;\n      max-width: 35%;\n      z-index: 2; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background: url(" + __webpack_require__(115) + ") no-repeat center center fixed;\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; }\n    .grunwald img {\n      display: none; }\n    .grunwald svg {\n      display: none; }\n    .grunwald .pulse {\n      display: none; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 25%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center; }\n  .popup h3 {\n    font-size: 1.5rem;\n    letter-spacing: 0.5rem;\n    text-transform: uppercase;\n    margin-bottom: 10px; }\n  .popup span {\n    font-size: 1.5rem; }\n  .popup.closed {\n    display: none; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstFour {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n@media (max-height: 699px) {\n  .popup {\n    width: 80vw;\n    z-index: 3;\n    margin: 0 auto; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile.closed {\n      display: none; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n#next {\n  background: url(" + __webpack_require__(119) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n#nextMobile {\n  background: url(" + __webpack_require__(120) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n@media (max-height: 799px) {\n  .about {\n    height: 100vh;\n    width: 100vw;\n    z-index: 3; } }\n\n#app {\n  overflow: hidden; }\n\n.hotspot {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0; }\n  .hotspot .info {\n    position: absolute;\n    top: -20%;\n    left: 120%;\n    background-color: white;\n    padding: 20px; }\n\n.whoButton {\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  font-size: 1.5rem;\n  padding: 10px; }\n\n.quizButton {\n  color: white;\n  font-size: 1.5rem;\n  /* padding: 10px; */\n  position: absolute;\n  right: 20%;\n  z-index: 2;\n  width: 70px;\n  text-align: center;\n  height: 70px;\n  top: 71px;\n  border-radius: 60px;\n  border: 1px;\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  text-align: center;\n  /* align-content: center; */\n  /* justify-content: center; */\n  line-height: 70px;\n  /* font-size: 3rem; */ }\n  .quizButton .label {\n    font-size: 2rem; }\n\n@media (max-width: 760px) {\n  .quizButton {\n    display: none; } }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n@media (max-height: 799px) {\n  .about {\n    height: 100vh;\n    width: 100vw;\n    z-index: 3; } }\n\n.pulse {\n  position: absolute;\n  height: 25px;\n  width: 25px;\n  left: 50%;\n  top: 45%;\n  opacity: 0;\n  border: 3px solid white;\n  border-radius: 40px;\n  animation: pulsate 3s ease-out;\n  animation-iteration-count: infinite; }\n\n.pulse-red {\n  position: absolute;\n  height: 80px;\n  width: 80px;\n  left: -10px;\n  top: -10px;\n  opacity: 1;\n  border: 5px solid rgba(140, 0, 26, 0.8);\n  border-radius: 80px;\n  animation: pulsate2 3s ease-out;\n  animation-iteration-count: infinite; }\n\n@keyframes pulsate {\n  0% {\n    transform: scale(0.1, 0.1);\n    opacity: 0.0; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 1.0; } }\n\n@keyframes pulsate2 {\n  0% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  33% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  66% {\n    transform: scale(1.5, 1.5);\n    opacity: 1; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 0.0; } }\n\n.quiz {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .4s;\n  right: 0;\n  font-size: 1.5rem;\n  color: white;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n  .quiz .container {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n    .quiz .container span {\n      font-size: 1.5rem;\n      color: white;\n      letter-spacing: 0.2rem;\n      line-height: 150%; }\n    .quiz .container h1 {\n      font-size: 2.2rem; }\n    .quiz .container h4 {\n      font-size: 1.5rem;\n      margin-top: 25px; }\n    .quiz .container input {\n      font-size: 1.2rem;\n      margin-top: 5px; }\n    .quiz .container button {\n      font-size: 1.2rem;\n      padding: 10px;\n      background-color: white;\n      border: none;\n      color: #800020;\n      text-transform: uppercase; }\n    .quiz .container .answers {\n      margin-top: 20px; }\n    .quiz .container .quizResult {\n      margin-top: 20px;\n      font-size: 1.5rem; }\n      .quiz .container .quizResult h3 {\n        font-size: 2rem;\n        margin-top: 20px; }\n      .quiz .container .quizResult div {\n        font-size: 1.5rem; }\n\n@media (max-width: 760px) {\n  .quiz {\n    display: none; } }\n\n@media (max-height: 799px) {\n  .quiz {\n    height: 100vh;\n    width: 100vw;\n    z-index: 3; } }\n\n.close-btn {\n  background-image: url(" + __webpack_require__(116) + ");\n  background-size: cover;\n  width: 32px;\n  height: 32px;\n  filter: brightness(0) invert(1); }\n\n.mute-btn {\n  background-image: url(" + __webpack_require__(118) + ");\n  background-position-x: center;\n  background-position-y: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  font-size: 1.5rem;\n  padding: 10px;\n  z-index: 2;\n  margin-left: 10px; }\n  .mute-btn.muted {\n    background-image: url(" + __webpack_require__(117) + "); }\n\n.buttons-container {\n  position: absolute;\n  left: 7%;\n  z-index: 100;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center; }\n\n@media (max-width: 760px) {\n  .mute-btn {\n    left: 24%; } }\n\n.pull-right {\n  position: absolute;\n  top: 0;\n  right: 0; }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n\na {\n  color: white;\n  font-size: 1.5rem;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n", ""]);
+exports.push([module.i, ".grunwald {\n  width: 100vw;\n  height: 100vh;\n  position: relative;\n  background-color: #800020;\n  display: flex;\n  align-items: center; }\n  .grunwald .container {\n    position: relative; }\n    .grunwald .container img {\n      height: auto;\n      width: 100vw;\n      transition: 0.3s all;\n      filter: blur(1.5px); }\n    .grunwald .container svg {\n      height: auto;\n      width: 100vw;\n      position: absolute;\n      top: 0;\n      left: 0; }\n    .grunwald .container .popup {\n      position: absolute;\n      width: auto;\n      max-height: 65%;\n      max-width: 35%;\n      z-index: 2; }\n\n@media (max-width: 760px) {\n  .grunwald {\n    background: url(" + __webpack_require__(115) + ") no-repeat center center fixed;\n    background-size: cover;\n    background-color: #800020;\n    cursor: auto; }\n    .grunwald img {\n      display: none; }\n    .grunwald svg {\n      display: none; }\n    .grunwald .pulse {\n      display: none; } }\n\n.popup {\n  position: absolute;\n  background-color: rgba(140, 0, 26, 0.8);\n  width: 25%;\n  padding-bottom: 30px;\n  color: white;\n  padding: 20px;\n  top: 25%;\n  left: 7%;\n  text-align: center;\n  z-index: 1; }\n  .popup h3 {\n    font-size: 1.5rem;\n    letter-spacing: 0.5rem;\n    text-transform: uppercase;\n    margin-bottom: 10px; }\n  .popup span {\n    font-size: 1.5rem; }\n  .popup.closed {\n    display: none; }\n  .popup h1 {\n    font-size: 2.2rem;\n    margin-top: 10px; }\n  .popup #bigger {\n    font-size: 1.5rem;\n    font-weight: bold; }\n  .popup #tekstOne {\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px;\n    margin-top: 10px; }\n  .popup #tekstTwo {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstThree {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n  .popup #tekstFour {\n    margin-top: 10px;\n    font-size: 1.2rem;\n    letter-spacing: 0.15rem;\n    margin-bottom: 10px; }\n\n@media (max-width: 760px) {\n  .popup {\n    display: none; } }\n\n@media (max-height: 699px) {\n  .popup {\n    width: 80vw;\n    z-index: 3;\n    margin: 0 auto; } }\n\n.popupMobile {\n  display: none; }\n\n@media (max-width: 760px) {\n  .popupMobile {\n    z-index: 2;\n    display: block;\n    position: absolute;\n    background: rgba(255, 255, 255, 0.85);\n    width: 75%;\n    padding-bottom: 30px;\n    color: white;\n    padding: 20px;\n    top: 30%;\n    left: 7%;\n    text-align: center; }\n    .popupMobile.closed {\n      display: none; }\n    .popupMobile h1 {\n      font-size: 2.2rem;\n      margin-top: 10px;\n      color: #8c001a; }\n    .popupMobile #biggerMobile {\n      font-size: 1.5rem;\n      font-weight: bold; }\n    .popupMobile #tekstMobile {\n      color: #8c001a;\n      font-size: 1.2rem;\n      letter-spacing: 0.15rem;\n      margin-bottom: 10px;\n      margin-top: 10px; } }\n\n#next {\n  background: url(" + __webpack_require__(119) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n#nextMobile {\n  background: url(" + __webpack_require__(120) + ") no-repeat;\n  -webkit-background-size: contain;\n  -moz-background-size: contain;\n  -o-background-size: contain;\n  background-size: contain;\n  width: 100%;\n  height: 20px;\n  background-position: 85% 70%; }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 4;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n@media (max-height: 799px) {\n  .about {\n    height: 100vh;\n    width: 100vw;\n    z-index: 4; } }\n\n#app {\n  overflow: hidden; }\n\n.hotspot {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0; }\n  .hotspot .info {\n    position: absolute;\n    top: -20%;\n    left: 120%;\n    background-color: white;\n    padding: 20px; }\n\n.whoButton {\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  font-size: 1.5rem;\n  padding: 10px;\n  cursor: pointer; }\n\n.quizButton {\n  color: white;\n  font-size: 1.5rem;\n  /* padding: 10px; */\n  position: absolute;\n  right: 20%;\n  z-index: 2;\n  width: 70px;\n  text-align: center;\n  height: 70px;\n  top: 71px;\n  border-radius: 60px;\n  border: 1px;\n  background-color: white;\n  color: rgba(140, 0, 26, 0.8);\n  text-align: center;\n  /* align-content: center; */\n  /* justify-content: center; */\n  line-height: 70px;\n  /* font-size: 3rem; */ }\n  .quizButton .label {\n    font-size: 2rem; }\n\n.about {\n  background-color: #800020;\n  position: absolute;\n  z-index: 4;\n  width: 30%;\n  height: 100vh;\n  transition: all .2s;\n  -moz-transition: all .2s;\n  -webkit-transition: all .2s; }\n  .about .containerAbout {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n  .about span {\n    font-size: 1.5rem;\n    color: white;\n    letter-spacing: 0.2rem;\n    line-height: 150%; }\n\n@media (max-height: 799px) {\n  .about {\n    height: 100vh;\n    width: 100vw;\n    z-index: 4; } }\n\n.pulse {\n  position: absolute;\n  height: 25px;\n  width: 25px;\n  left: 50%;\n  top: 45%;\n  opacity: 0;\n  border: 3px solid white;\n  border-radius: 40px;\n  animation: pulsate 3s ease-out;\n  animation-iteration-count: infinite; }\n\n.pulse-red {\n  position: absolute;\n  height: 80px;\n  width: 80px;\n  left: -10px;\n  top: -10px;\n  opacity: 1;\n  border: 5px solid rgba(140, 0, 26, 0.8);\n  border-radius: 80px;\n  animation: pulsate2 3s ease-out;\n  animation-iteration-count: infinite; }\n\n@keyframes pulsate {\n  0% {\n    transform: scale(0.1, 0.1);\n    opacity: 0.0; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 1.0; } }\n\n@keyframes pulsate2 {\n  0% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  33% {\n    transform: scale(1, 1);\n    opacity: 0.0; }\n  66% {\n    transform: scale(1.5, 1.5);\n    opacity: 1; }\n  100% {\n    transform: scale(1, 1);\n    opacity: 0.0; } }\n\n.quiz {\n  background-color: #800020;\n  position: absolute;\n  z-index: 2;\n  width: 30%;\n  height: 100vh;\n  transition: all .4s;\n  right: 0;\n  font-size: 1.5rem;\n  color: white;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n  .quiz .container {\n    position: relative;\n    top: 30%;\n    padding-left: 10%;\n    padding-right: 10%; }\n    .quiz .container span {\n      font-size: 1.5rem;\n      color: white;\n      letter-spacing: 0.2rem;\n      line-height: 150%; }\n    .quiz .container h1 {\n      font-size: 2.2rem; }\n    .quiz .container h4 {\n      font-size: 1.5rem;\n      margin-top: 25px; }\n    .quiz .container input {\n      font-size: 1.2rem;\n      margin-top: 5px; }\n    .quiz .container button {\n      font-size: 1.2rem;\n      padding: 10px;\n      background-color: white;\n      border: none;\n      color: #800020;\n      text-transform: uppercase; }\n    .quiz .container .answers {\n      margin-top: 20px; }\n    .quiz .container .quizResult {\n      margin-top: 20px;\n      font-size: 1.5rem; }\n      .quiz .container .quizResult h3 {\n        font-size: 2rem;\n        margin-top: 20px; }\n      .quiz .container .quizResult div {\n        font-size: 1.5rem; }\n\n@media (max-height: 799px) {\n  .quiz {\n    height: 100vh;\n    width: 100vw;\n    z-index: 3; } }\n\n.close-btn {\n  background-image: url(" + __webpack_require__(116) + ");\n  background-size: cover;\n  width: 32px;\n  height: 32px;\n  filter: brightness(0) invert(1); }\n\n.mute-btn {\n  background-image: url(" + __webpack_require__(118) + ");\n  background-position-x: center;\n  background-position-y: center;\n  background-repeat: no-repeat;\n  background-size: contain;\n  font-size: 1.5rem;\n  padding: 10px;\n  z-index: 2;\n  margin-left: 10px; }\n  .mute-btn.muted {\n    background-image: url(" + __webpack_require__(117) + "); }\n\n.buttons-container {\n  position: absolute;\n  left: 7%;\n  z-index: 100;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center; }\n\n@media (max-width: 760px) {\n  .mute-btn {\n    left: 24%; } }\n\n.pull-right {\n  position: absolute;\n  top: 0;\n  right: 0; }\n\n* {\n  padding: 0;\n  margin: 0;\n  font-size: 10px;\n  font-family: 'Playfair Display', Georgia, Garamond, Times, serif; }\n\na {\n  color: white;\n  font-size: 1.5rem;\n  letter-spacing: 0.2rem;\n  line-height: 150%; }\n", ""]);
 
 // exports
 
@@ -12159,37 +12160,37 @@ module.exports = performanceNow;
 /* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "ea8231e5826e8fc848754bafa6caa6f1.jpg";
+module.exports = __webpack_require__.p + "8cfc2ef8f20a022f3069be26f86b7663.jpg";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6e4b7e8cad299008d30759c8081220e8.png";
+module.exports = __webpack_require__.p + "014edaf458d622b6d7306fbd00718ded.png";
 
 /***/ }),
 /* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "b659bf75e001d789a3f7db65b0696143.png";
+module.exports = __webpack_require__.p + "e4374e126e1d8896e9bd505ea7add25c.png";
 
 /***/ }),
 /* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "d52ef17d8126f746131d7edebf426cab.png";
+module.exports = __webpack_require__.p + "918534f35b107a58f2d14d21aff121d8.png";
 
 /***/ }),
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1371d3931472c43b39ad0edeaa4ff59d.png";
+module.exports = __webpack_require__.p + "828fc0d2c5219158ab0959418c3d2b35.png";
 
 /***/ }),
 /* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "c30b507ce5ee0f10f1a4f55ca63adc76.png";
+module.exports = __webpack_require__.p + "ba0f7ac38f615088f6a40edce68a3ea3.png";
 
 /***/ }),
 /* 121 */

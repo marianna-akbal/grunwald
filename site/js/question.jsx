@@ -10,7 +10,7 @@ var Question = React.createClass({
   render: function(){
     var answersNodes = Object.keys(this.props.data.answers).map(function(value, index){
       return (
-        <div className="answers">
+        <div key={"div-answer-input-" + index + "-" + this.props.id} className="answers">
           <input key={"answer-input-" + index + "-" + this.props.id}
             id={"answer-input-" + index + "-" + this.props.id}
             type="checkbox"

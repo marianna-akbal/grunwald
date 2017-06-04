@@ -12,6 +12,7 @@ export default class PopupMobile extends React.Component {
 
   closePopup() {
     this.setState({isClosed: true});
+    this.props.close();
   }
 
   render(){

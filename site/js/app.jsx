@@ -57,18 +57,19 @@ class App extends React.Component {
 
     render(){
         return <div>
+          <Popup close={this.closeAbout.bind(this)} />
+          <PopupMobile close={this.showQuiz.bind(this)} />
           <Sound mute={this.state.isMuted} />
           <About isVisible = {this.state.isWhoVisible} close={this.showWhoPopup.bind(this)}  />
+
           <div className="buttons-container">
           <WhoButton click={e => this.showWhoPopup()} />
           <MuteButton isMuted = {this.state.isMuted} mute={this.mute.bind(this)} />
           </div>
           <Quiz ref="quiz" isVisible = {this.state.isQuizVisible} close ={this.showQuiz.bind(this)}  />
-          
+
           <QuizButton isVisible = {!this.state.isQuizVisible} click={e => this.showQuiz()} />
           <Grunwald isEnable={this.state.isEnable} />
-          <Popup close={this.closeAbout.bind(this)} />
-          <PopupMobile />
         </div>
     }
 }

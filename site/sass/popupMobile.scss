@@ -4,6 +4,8 @@
 
 @media (max-width: 760px) {
   .popupMobile {
+    z-index: 2;
+
     display: block;
     position: absolute;
     background:rgba(255,255,255, 0.85);
@@ -14,7 +16,6 @@
     top: 30%;
     left: 7%;
     text-align: center;
-
     &.closed {
       display: none;
     }
